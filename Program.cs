@@ -1,10 +1,11 @@
-using ServiceWorker;
+using PlanningService;
 
 IHost host = Host.CreateDefaultBuilder(args)
     .ConfigureServices(services =>
     {
-        services.AddHostedService<Worker>();
+       services.AddHostedService<Worker>();
     })
     .Build();
+
 
 host.Run();

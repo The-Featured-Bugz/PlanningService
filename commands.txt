@@ -1,0 +1,10 @@
+docker run -d --network jacobnetwork -p 4200:80 -v storage:/srv/storage -e RabbitMQConnectionString=rabbitmq-dev -e csvpath="//srv/storage/taxabooking.csv" --name planningservice planningservice-image:latest
+
+
+
+docker build -t planningservice-image -f Dockerfile .
+
+docker run -it planningservice-image:latest
+
+
+docker volume create storage
