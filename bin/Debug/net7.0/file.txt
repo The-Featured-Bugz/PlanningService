@@ -1,0 +1,185 @@
+2023-03-28 09:29:58.0138|DEBUG|Program|init main
+2023-03-28 09:42:34.0794|DEBUG|Program|init main
+2023-03-28 09:42:34.1638|INFO|Program|HejHej
+2023-03-28 09:42:34.1638|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2023-03-28 09:44:57.2115|DEBUG|Program|init main
+2023-03-28 09:44:57.2762|INFO|Program|HejHej
+2023-03-28 09:44:57.2896|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2023-03-28 09:44:57.3541|INFO|PlanningService.Worker|WW
+2023-03-28 09:44:57.3541|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:44:57.3675|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:44:57 +02:00
+2023-03-28 09:44:57.3675|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-03-28 09:44:57.3675|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2023-03-28 09:44:57.3675|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\jacob\Music\MicroProject\PlanningService
+2023-03-28 09:44:57.3675|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2023-03-28 09:45:07.3757|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:45:07.3757|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:45:07 +02:00
+2023-03-28 09:45:17.3893|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:45:17.3893|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:45:17 +02:00
+2023-03-28 09:45:27.3967|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:45:27.3967|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:45:27 +02:00
+2023-03-28 09:45:29.4852|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...
+2023-03-28 09:45:29.4852|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopping
+2023-03-28 09:45:29.4852|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopped
+2023-03-28 09:52:33.4896|DEBUG|Program|init main
+2023-03-28 09:52:33.5541|INFO|Program|HejHej
+2023-03-28 09:52:33.5541|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2023-03-28 09:52:33.6296|INFO|PlanningService.Worker|WW
+2023-03-28 09:52:33.6381|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:52:33.6381|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:52:33 +02:00
+2023-03-28 09:52:33.6381|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-03-28 09:52:33.6381|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2023-03-28 09:52:33.6381|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\jacob\Music\MicroProject\PlanningService
+2023-03-28 09:52:33.6381|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2023-03-28 09:52:43.6500|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:52:43.6500|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:52:43 +02:00
+2023-03-28 09:52:53.6559|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:52:53.6559|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:52:53 +02:00
+2023-03-28 09:53:03.6665|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:53:03.6665|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:53:03 +02:00
+2023-03-28 09:53:13.6749|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:53:13.6749|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:53:13 +02:00
+2023-03-28 09:53:23.6889|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:53:23.6889|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:53:23 +02:00
+2023-03-28 09:53:33.6995|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:53:33.6995|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:53:33 +02:00
+2023-03-28 09:53:43.7112|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:53:43.7112|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:53:43 +02:00
+2023-03-28 09:53:53.7251|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:53:53.7251|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:53:53 +02:00
+2023-03-28 09:54:03.7390|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:54:03.7406|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:54:03 +02:00
+2023-03-28 09:54:13.7502|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:54:13.7502|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:54:13 +02:00
+2023-03-28 09:54:23.7549|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:54:23.7562|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:54:23 +02:00
+2023-03-28 09:54:33.7695|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:54:33.7695|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:54:33 +02:00
+2023-03-28 09:54:43.7787|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:54:43.7787|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:54:43 +02:00
+2023-03-28 09:54:53.7833|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:54:53.7833|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:54:53 +02:00
+2023-03-28 09:55:03.7991|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:55:03.7991|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:55:03 +02:00
+2023-03-28 09:55:13.8046|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:55:13.8046|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:55:13 +02:00
+2023-03-28 09:55:23.8066|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:55:23.8066|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:55:23 +02:00
+2023-03-28 09:55:33.8158|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:55:33.8158|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:55:33 +02:00
+2023-03-28 09:55:43.8293|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:55:43.8293|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:55:43 +02:00
+2023-03-28 09:55:53.8414|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:55:53.8414|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:55:53 +02:00
+2023-03-28 09:56:03.8432|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:56:03.8432|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:56:03 +02:00
+2023-03-28 09:56:13.8464|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:56:13.8464|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:56:13 +02:00
+2023-03-28 09:56:23.8562|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:56:23.8562|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:56:23 +02:00
+2023-03-28 09:56:32.6040|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...
+2023-03-28 09:56:32.6040|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopping
+2023-03-28 09:56:32.6040|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopped
+2023-03-28 09:56:35.5856|DEBUG|Program|init main
+2023-03-28 09:56:35.6464|INFO|Program|HejHej
+2023-03-28 09:56:35.6536|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2023-03-28 09:56:35.7284|INFO|PlanningService.Worker|WW
+2023-03-28 09:56:35.7284|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:56:35.7408|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:56:35 +02:00
+2023-03-28 09:56:35.7408|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-03-28 09:56:35.7408|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2023-03-28 09:56:35.7408|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\jacob\Music\MicroProject\PlanningService
+2023-03-28 09:56:35.7408|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2023-03-28 09:56:45.7497|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:56:45.7497|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:56:45 +02:00
+2023-03-28 09:56:55.7629|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:56:55.7629|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:56:55 +02:00
+2023-03-28 09:57:05.7785|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:57:05.7785|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:57:05 +02:00
+2023-03-28 09:57:15.7932|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:57:15.7932|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:57:15 +02:00
+2023-03-28 09:57:25.7960|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:57:25.7960|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:57:25 +02:00
+2023-03-28 09:57:35.8047|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:57:35.8047|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:57:35 +02:00
+2023-03-28 09:57:45.8088|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:57:45.8088|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:57:45 +02:00
+2023-03-28 09:57:55.8111|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:57:55.8111|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:57:55 +02:00
+2023-03-28 09:58:05.8148|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:58:05.8148|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:58:05 +02:00
+2023-03-28 09:58:15.8231|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:58:15.8231|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:58:15 +02:00
+2023-03-28 09:58:25.8353|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:58:25.8353|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:58:25 +02:00
+2023-03-28 09:58:35.8514|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:58:35.8514|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:58:35 +02:00
+2023-03-28 09:58:45.8659|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:58:45.8659|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:58:45 +02:00
+2023-03-28 09:58:55.8794|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:58:55.8834|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:58:55 +02:00
+2023-03-28 09:59:05.8942|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:59:05.8942|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:59:05 +02:00
+2023-03-28 09:59:15.8960|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:59:15.8969|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:59:15 +02:00
+2023-03-28 09:59:25.9023|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:59:25.9023|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:59:25 +02:00
+2023-03-28 09:59:35.9156|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:59:35.9156|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:59:35 +02:00
+2023-03-28 09:59:45.9212|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:59:45.9212|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:59:45 +02:00
+2023-03-28 09:59:55.9355|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 09:59:55.9355|INFO|PlanningService.Worker|Worker running at: 03/28/2023 09:59:55 +02:00
+2023-03-28 10:00:05.9516|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 10:00:05.9516|INFO|PlanningService.Worker|Worker running at: 03/28/2023 10:00:05 +02:00
+2023-03-28 10:00:15.9673|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 10:00:15.9673|INFO|PlanningService.Worker|Worker running at: 03/28/2023 10:00:15 +02:00
+2023-03-28 10:00:25.9709|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 10:00:25.9709|INFO|PlanningService.Worker|Worker running at: 03/28/2023 10:00:25 +02:00
+2023-03-28 10:00:35.9848|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 10:00:35.9848|INFO|PlanningService.Worker|Worker running at: 03/28/2023 10:00:35 +02:00
+2023-03-28 10:00:45.9972|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 10:00:45.9972|INFO|PlanningService.Worker|Worker running at: 03/28/2023 10:00:45 +02:00
+2023-03-28 10:00:56.0062|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 10:00:56.0062|INFO|PlanningService.Worker|Worker running at: 03/28/2023 10:00:56 +02:00
+2023-03-28 10:01:06.0142|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 10:01:06.0142|INFO|PlanningService.Worker|Worker running at: 03/28/2023 10:01:06 +02:00
+2023-03-28 10:01:16.0193|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 10:01:16.0193|INFO|PlanningService.Worker|Worker running at: 03/28/2023 10:01:16 +02:00
+2023-03-28 10:01:26.0211|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 10:01:26.0220|INFO|PlanningService.Worker|Worker running at: 03/28/2023 10:01:26 +02:00
+2023-03-28 10:01:36.0343|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 10:01:36.0343|INFO|PlanningService.Worker|Worker running at: 03/28/2023 10:01:36 +02:00
+2023-03-28 10:01:46.0416|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 10:01:46.0416|INFO|PlanningService.Worker|Worker running at: 03/28/2023 10:01:46 +02:00
+2023-03-28 10:01:56.0476|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 10:01:56.0476|INFO|PlanningService.Worker|Worker running at: 03/28/2023 10:01:56 +02:00
+2023-03-28 10:02:06.0543|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 10:02:06.0543|INFO|PlanningService.Worker|Worker running at: 03/28/2023 10:02:06 +02:00
+2023-03-28 10:02:16.0656|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 10:02:16.0656|INFO|PlanningService.Worker|Worker running at: 03/28/2023 10:02:16 +02:00
+2023-03-28 10:02:26.0707|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 10:02:26.0707|INFO|PlanningService.Worker|Worker running at: 03/28/2023 10:02:26 +02:00
+2023-03-28 10:02:36.0741|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 10:02:36.0741|INFO|PlanningService.Worker|Worker running at: 03/28/2023 10:02:36 +02:00
+2023-03-28 10:02:46.0861|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 10:02:46.0861|INFO|PlanningService.Worker|Worker running at: 03/28/2023 10:02:46 +02:00
+2023-03-28 10:02:56.1002|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 10:02:56.1002|INFO|PlanningService.Worker|Worker running at: 03/28/2023 10:02:56 +02:00
+2023-03-28 10:03:06.1067|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 10:03:06.1067|INFO|PlanningService.Worker|Worker running at: 03/28/2023 10:03:06 +02:00
+2023-03-28 10:03:16.1117|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 10:03:16.1117|INFO|PlanningService.Worker|Worker running at: 03/28/2023 10:03:16 +02:00
+2023-03-28 10:03:26.1170|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 10:03:26.1170|INFO|PlanningService.Worker|Worker running at: 03/28/2023 10:03:26 +02:00
+2023-03-28 10:03:36.1192|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 10:03:36.1192|INFO|PlanningService.Worker|Worker running at: 03/28/2023 10:03:36 +02:00
+2023-03-28 10:03:46.1227|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 10:03:46.1227|INFO|PlanningService.Worker|Worker running at: 03/28/2023 10:03:46 +02:00
+2023-03-28 10:03:56.1315|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 10:03:56.1315|INFO|PlanningService.Worker|Worker running at: 03/28/2023 10:03:56 +02:00
+2023-03-28 10:04:06.1486|INFO|PlanningService.Worker|Nyt data: System.Threading.CancellationToken
+2023-03-28 10:04:06.1486|INFO|PlanningService.Worker|Worker running at: 03/28/2023 10:04:06 +02:00
+2023-03-28 10:04:06.9531|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...
+2023-03-28 10:04:06.9531|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopping
+2023-03-28 10:04:06.9531|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopped
