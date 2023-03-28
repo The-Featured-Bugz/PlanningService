@@ -58,11 +58,13 @@ public class Worker : BackgroundService
                     }
                     if (message[i] == ',')
                     {
+
                         addCharFlag = false;
                         csvFormat += ',';
                     }
                     if (addCharFlag && message[i] != '"' && message[i] != '}' && message[i] != '{')
                     {
+                        //Hejsa
                         csvFormat += message[i];
                     }
                 }
