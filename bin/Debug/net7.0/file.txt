@@ -978,3 +978,2288 @@
 2023-04-20 08:55:31.8021|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...
 2023-04-20 08:55:31.8021|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopping
 2023-04-20 08:55:31.8021|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopped
+2023-04-20 09:17:52.1169|DEBUG|Program|init main
+2023-04-20 09:17:52.1732|INFO|Program|HejHej
+2023-04-20 09:17:52.1732|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2023-04-20 09:17:56.4293|ERROR|Program|Stopped program because of exception|System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at PlanningService.Worker..ctor(ILogger`1 logger, IConfiguration configuration) in C:\Users\jacob\Music\MicroProject\PlanningService\Worker.cs:line 33
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.ConstructorInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Program.<Main>$(String[] args) in C:\Users\jacob\Music\MicroProject\PlanningService\Program.cs:line 21
+2023-04-20 10:12:00.9022|DEBUG|Program|init main
+2023-04-20 10:12:00.9669|INFO|Program|HejHej
+2023-04-20 10:12:00.9669|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2023-04-20 10:12:05.1874|ERROR|Program|Stopped program because of exception|System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at PlanningService.Worker..ctor(ILogger`1 logger, IConfiguration configuration) in C:\Users\jacob\Music\MicroProject\PlanningService\Worker.cs:line 37
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.ConstructorInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Program.<Main>$(String[] args) in C:\Users\jacob\Music\MicroProject\PlanningService\Program.cs:line 21
+2023-04-20 10:12:29.5806|DEBUG|Program|init main
+2023-04-20 10:12:29.6560|INFO|Program|HejHej
+2023-04-20 10:12:29.6943|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2023-04-20 10:12:29.8122|INFO|PlanningService.Worker|WW service   C:\Users\jacob\Music\MicroProject\PlanningService
+2023-04-20 10:12:29.8122|INFO|PlanningService.Worker|2
+2023-04-20 10:12:29.8273|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:12:29.8273|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:12:29 +02:00
+2023-04-20 10:12:29.8273|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-04-20 10:12:29.8273|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2023-04-20 10:12:29.8273|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\jacob\Music\MicroProject\PlanningService
+2023-04-20 10:12:29.8273|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2023-04-20 10:12:39.8383|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:12:39.8383|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:12:39 +02:00
+2023-04-20 10:12:40.6050|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...
+2023-04-20 10:12:40.6050|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopping
+2023-04-20 10:12:40.6081|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopped
+2023-04-20 10:13:04.6500|DEBUG|Program|init main
+2023-04-20 10:13:04.7214|INFO|Program|HejHej
+2023-04-20 10:13:04.7214|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2023-04-20 10:13:04.8421|INFO|PlanningService.Worker|WW service   C:\Users\jacob\Music\MicroProject\PlanningService
+2023-04-20 10:13:04.8421|INFO|PlanningService.Worker|2
+2023-04-20 10:13:04.8421|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:13:04.8577|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:13:04 +02:00
+2023-04-20 10:13:04.8577|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-04-20 10:13:04.8577|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2023-04-20 10:13:04.8577|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\jacob\Music\MicroProject\PlanningService
+2023-04-20 10:13:04.8577|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2023-04-20 10:13:14.8689|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:13:14.8689|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:13:14 +02:00
+2023-04-20 10:13:21.1411|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...
+2023-04-20 10:13:21.1411|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopping
+2023-04-20 10:13:21.1411|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopped
+2023-04-20 10:13:32.8690|DEBUG|Program|init main
+2023-04-20 10:13:32.9243|INFO|Program|HejHej
+2023-04-20 10:13:32.9243|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2023-04-20 10:13:33.0322|INFO|PlanningService.Worker|WW Service   C:\Users\jacob\Music\MicroProject\PlanningService
+2023-04-20 10:13:33.0450|INFO|PlanningService.Worker|2
+2023-04-20 10:13:33.0450|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:13:33.0450|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:13:33 +02:00
+2023-04-20 10:13:33.0450|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-04-20 10:13:33.0450|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2023-04-20 10:13:33.0450|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\jacob\Music\MicroProject\PlanningService
+2023-04-20 10:13:33.0450|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2023-04-20 10:13:41.3279|INFO|PlanningService.Worker| [x] Received 'Service':'{"ID":1,"Execution":"Fiskehandler","ServiceType":"Service","Customer":"John"}'
+2023-04-20 10:13:41.3279|INFO|PlanningService.Worker|Sending: 1,Fiskehandler,Service,John
+2023-04-20 10:13:43.0548|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:13:43.0548|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:13:43 +02:00
+2023-04-20 10:13:53.0720|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:13:53.0720|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:13:53 +02:00
+2023-04-20 10:14:03.0800|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:14:03.0800|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:14:03 +02:00
+2023-04-20 10:14:08.9187|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...
+2023-04-20 10:14:08.9187|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopping
+2023-04-20 10:14:08.9187|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopped
+2023-04-20 10:14:39.5282|DEBUG|Program|init main
+2023-04-20 10:14:39.6004|INFO|Program|HejHej
+2023-04-20 10:14:39.6075|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2023-04-20 10:14:39.7217|INFO|PlanningService.Worker|WW Service   C:\Users\jacob\Music\MicroProject\PlanningService
+2023-04-20 10:14:39.7333|INFO|PlanningService.Worker|2
+2023-04-20 10:14:39.7333|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:14:39.7333|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:14:39 +02:00
+2023-04-20 10:14:39.7333|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-04-20 10:14:39.7333|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2023-04-20 10:14:39.7333|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\jacob\Music\MicroProject\PlanningService
+2023-04-20 10:14:39.7333|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2023-04-20 10:14:45.1758|INFO|PlanningService.Worker| [x] Received 'Service':'{"ID":1,"Execution":"Fiskehandler","ServiceType":"Service","Customer":"John"}'
+2023-04-20 10:14:45.1758|INFO|PlanningService.Worker|Sending: 1,Fiskehandler,Service,John
+2023-04-20 10:14:49.7468|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:14:49.7468|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:14:49 +02:00
+2023-04-20 10:14:56.7250|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...
+2023-04-20 10:14:56.7250|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopping
+2023-04-20 10:14:56.7250|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopped
+2023-04-20 10:16:17.7440|DEBUG|Program|init main
+2023-04-20 10:16:17.8085|INFO|Program|HejHej
+2023-04-20 10:16:17.8147|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2023-04-20 10:16:17.9314|INFO|PlanningService.Worker|WW Service   C:\Users\jacob\Music\MicroProject\PlanningService
+2023-04-20 10:16:17.9417|INFO|PlanningService.Worker|2
+2023-04-20 10:16:17.9417|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:16:17.9417|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:16:17 +02:00
+2023-04-20 10:16:17.9497|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-04-20 10:16:17.9497|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2023-04-20 10:16:17.9497|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\jacob\Music\MicroProject\PlanningService
+2023-04-20 10:16:17.9497|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2023-04-20 10:16:21.6163|INFO|PlanningService.Worker| [x] Received 'Service':'{"ID":1,"Execution":"Fiskehandler","ServiceType":"Service","Customer":"John"}' C:\Users\jacob\Music\MicroProject\PlanningServiceService.csv
+2023-04-20 10:16:21.6163|INFO|PlanningService.Worker|Sending: 1,Fiskehandler,Service,John
+2023-04-20 10:16:27.9611|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:16:27.9611|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:16:27 +02:00
+2023-04-20 10:16:36.4265|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...
+2023-04-20 10:16:36.4265|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopping
+2023-04-20 10:16:36.4265|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopped
+2023-04-20 10:19:24.0888|DEBUG|Program|init main
+2023-04-20 10:19:24.1442|INFO|Program|HejHej
+2023-04-20 10:19:24.1442|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2023-04-20 10:19:24.2600|INFO|PlanningService.Worker|WW Service   C:\Users\jacob\Music\MicroProject\PlanningService
+2023-04-20 10:19:24.2732|INFO|PlanningService.Worker|2
+2023-04-20 10:19:24.2732|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:19:24.2801|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:19:24 +02:00
+2023-04-20 10:19:24.2801|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-04-20 10:19:24.2801|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2023-04-20 10:19:24.2801|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\jacob\Music\MicroProject\PlanningService
+2023-04-20 10:19:24.2801|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2023-04-20 10:19:34.2954|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:19:34.2954|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:19:34 +02:00
+2023-04-20 10:19:41.2108|INFO|PlanningService.Worker| [x] Received 'Service':'{"ID":1,"Execution":"Fiskehandler","ServiceType":"Service","Customer":"John"}' C:\Users\jacob\Music\MicroProject\PlanningService\Service.csv
+2023-04-20 10:19:41.2108|INFO|PlanningService.Worker|Sending: 1,Fiskehandler,Service,John
+2023-04-20 10:19:44.3015|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:19:44.3015|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:19:44 +02:00
+2023-04-20 10:19:54.3063|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:19:54.3063|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:19:54 +02:00
+2023-04-20 10:19:55.4641|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...
+2023-04-20 10:19:55.4651|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopping
+2023-04-20 10:19:55.4651|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopped
+2023-04-20 10:20:10.8178|DEBUG|Program|init main
+2023-04-20 10:20:10.8820|INFO|Program|HejHej
+2023-04-20 10:20:10.8883|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2023-04-20 10:20:10.9995|INFO|PlanningService.Worker|WW Service   C:\Users\jacob\Music\MicroProject\PlanningService
+2023-04-20 10:20:10.9995|INFO|PlanningService.Worker|3
+2023-04-20 10:20:11.0171|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:20:11.0171|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:20:11 +02:00
+2023-04-20 10:20:11.0171|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-04-20 10:20:11.0171|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2023-04-20 10:20:11.0171|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\jacob\Music\MicroProject\PlanningService
+2023-04-20 10:20:11.0171|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2023-04-20 10:20:21.0270|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:20:21.0279|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:20:21 +02:00
+2023-04-20 10:20:26.8895|INFO|PlanningService.Worker| [x] Received 'Silkeborg':'{"ID":1,"Execution":"Fiskehandler","ServiceType":"Silkeborg","Customer":"John"}' C:\Users\jacob\Music\MicroProject\PlanningService\Silkeborg.csv
+2023-04-20 10:20:26.8895|INFO|PlanningService.Worker|Sending: 1,Fiskehandler,Silkeborg,John
+2023-04-20 10:20:31.0305|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:20:31.0305|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:20:31 +02:00
+2023-04-20 10:20:33.4757|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...
+2023-04-20 10:20:33.4757|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopping
+2023-04-20 10:20:33.4812|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopped
+2023-04-20 10:46:34.4153|DEBUG|Program|init main
+2023-04-20 10:46:34.4825|INFO|Program|HejHej
+2023-04-20 10:46:34.4825|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2023-04-20 10:46:34.5949|INFO|PlanningService.Worker|WW Service   C:\Users\jacob\Music\MicroProject\PlanningService
+2023-04-20 10:46:34.6081|INFO|PlanningService.Worker|2
+2023-04-20 10:46:34.6081|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:46:34.6081|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:46:34 +02:00
+2023-04-20 10:46:34.6081|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-04-20 10:46:34.6081|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2023-04-20 10:46:34.6081|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\jacob\Music\MicroProject\PlanningService
+2023-04-20 10:46:34.6081|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2023-04-20 10:46:44.6208|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:46:44.6216|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:46:44 +02:00
+2023-04-20 10:46:54.6375|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:46:54.6375|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:46:54 +02:00
+2023-04-20 10:47:04.6457|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:47:04.6457|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:47:04 +02:00
+2023-04-20 10:47:14.6606|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:47:14.6606|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:47:14 +02:00
+2023-04-20 10:47:24.6755|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:47:24.6755|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:47:24 +02:00
+2023-04-20 10:47:34.6936|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:47:34.6936|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:47:34 +02:00
+2023-04-20 10:47:44.7028|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:47:44.7028|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:47:44 +02:00
+2023-04-20 10:47:54.7125|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:47:54.7125|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:47:54 +02:00
+2023-04-20 10:48:04.7264|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:48:04.7264|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:48:04 +02:00
+2023-04-20 10:48:14.7370|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:48:14.7370|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:48:14 +02:00
+2023-04-20 10:48:24.7400|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:48:24.7400|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:48:24 +02:00
+2023-04-20 10:48:34.7513|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:48:34.7513|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:48:34 +02:00
+2023-04-20 10:48:44.7572|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:48:44.7572|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:48:44 +02:00
+2023-04-20 10:48:54.7678|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:48:54.7678|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:48:54 +02:00
+2023-04-20 10:49:04.7789|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:49:04.7789|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:49:04 +02:00
+2023-04-20 10:49:14.7838|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:49:14.7838|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:49:14 +02:00
+2023-04-20 10:49:24.7975|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:49:24.7975|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:49:24 +02:00
+2023-04-20 10:49:34.7983|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:49:34.7983|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:49:34 +02:00
+2023-04-20 10:49:44.8033|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:49:44.8033|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:49:44 +02:00
+2023-04-20 10:49:54.8075|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:49:54.8075|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:49:54 +02:00
+2023-04-20 10:50:04.8116|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:50:04.8116|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:50:04 +02:00
+2023-04-20 10:50:14.8291|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:50:14.8291|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:50:14 +02:00
+2023-04-20 10:50:24.8389|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:50:24.8397|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:50:24 +02:00
+2023-04-20 10:50:34.8552|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:50:34.8562|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:50:34 +02:00
+2023-04-20 10:50:44.8628|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:50:44.8628|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:50:44 +02:00
+2023-04-20 10:50:54.8642|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:50:54.8642|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:50:54 +02:00
+2023-04-20 10:51:04.8745|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:51:04.8745|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:51:04 +02:00
+2023-04-20 10:51:14.8905|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:51:14.8905|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:51:14 +02:00
+2023-04-20 10:51:24.9001|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:51:24.9001|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:51:24 +02:00
+2023-04-20 10:51:34.9037|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:51:34.9037|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:51:34 +02:00
+2023-04-20 10:51:44.9157|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:51:44.9157|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:51:44 +02:00
+2023-04-20 10:51:54.9215|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:51:54.9215|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:51:54 +02:00
+2023-04-20 10:52:04.9281|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:52:04.9281|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:52:04 +02:00
+2023-04-20 10:52:14.9350|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:52:14.9350|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:52:14 +02:00
+2023-04-20 10:52:24.9457|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:52:24.9457|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:52:24 +02:00
+2023-04-20 10:52:34.9577|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:52:34.9577|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:52:34 +02:00
+2023-04-20 10:52:44.9703|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:52:44.9703|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:52:44 +02:00
+2023-04-20 10:52:54.9852|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:52:54.9852|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:52:54 +02:00
+2023-04-20 10:53:04.9907|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:53:04.9907|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:53:04 +02:00
+2023-04-20 10:53:15.0036|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:53:15.0036|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:53:15 +02:00
+2023-04-20 10:53:25.0121|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:53:25.0121|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:53:25 +02:00
+2023-04-20 10:53:35.0290|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:53:35.0290|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:53:35 +02:00
+2023-04-20 10:53:45.0414|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:53:45.0433|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:53:45 +02:00
+2023-04-20 10:53:55.0468|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:53:55.0468|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:53:55 +02:00
+2023-04-20 10:54:05.0582|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:54:05.0582|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:54:05 +02:00
+2023-04-20 10:54:15.0671|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:54:15.0671|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:54:15 +02:00
+2023-04-20 10:54:25.0684|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:54:25.0684|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:54:25 +02:00
+2023-04-20 10:54:35.0724|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:54:35.0724|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:54:35 +02:00
+2023-04-20 10:54:45.0857|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:54:45.0857|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:54:45 +02:00
+2023-04-20 10:54:55.0916|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:54:55.0916|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:54:55 +02:00
+2023-04-20 10:55:05.1027|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:55:05.1027|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:55:05 +02:00
+2023-04-20 10:55:15.1156|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:55:15.1156|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:55:15 +02:00
+2023-04-20 10:55:25.1252|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:55:25.1252|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:55:25 +02:00
+2023-04-20 10:55:35.1300|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:55:35.1300|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:55:35 +02:00
+2023-04-20 10:55:45.1329|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:55:45.1329|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:55:45 +02:00
+2023-04-20 10:55:55.1418|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:55:55.1418|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:55:55 +02:00
+2023-04-20 10:56:05.1525|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:56:05.1525|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:56:05 +02:00
+2023-04-20 10:56:15.1609|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:56:15.1609|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:56:15 +02:00
+2023-04-20 10:56:25.1657|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:56:25.1657|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:56:25 +02:00
+2023-04-20 10:56:35.1797|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:56:35.1797|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:56:35 +02:00
+2023-04-20 10:56:45.1901|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:56:45.1901|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:56:45 +02:00
+2023-04-20 10:56:55.1997|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:56:55.1997|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:56:55 +02:00
+2023-04-20 10:57:05.2036|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:57:05.2036|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:57:05 +02:00
+2023-04-20 10:57:15.2060|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:57:15.2060|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:57:15 +02:00
+2023-04-20 10:57:25.2114|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:57:25.2114|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:57:25 +02:00
+2023-04-20 10:57:35.2278|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:57:35.2278|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:57:35 +02:00
+2023-04-20 10:57:45.2417|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:57:45.2417|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:57:45 +02:00
+2023-04-20 10:57:55.2445|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:57:55.2445|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:57:55 +02:00
+2023-04-20 10:58:05.2547|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:58:05.2547|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:58:05 +02:00
+2023-04-20 10:58:15.2596|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:58:15.2647|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:58:15 +02:00
+2023-04-20 10:58:25.2810|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:58:25.2810|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:58:25 +02:00
+2023-04-20 10:58:35.2930|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:58:35.2930|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:58:35 +02:00
+2023-04-20 10:58:45.3024|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:58:45.3024|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:58:45 +02:00
+2023-04-20 10:58:55.3175|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:58:55.3175|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:58:55 +02:00
+2023-04-20 10:59:05.3250|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:59:05.3250|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:59:05 +02:00
+2023-04-20 10:59:15.3392|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:59:15.3401|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:59:15 +02:00
+2023-04-20 10:59:25.3480|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:59:25.3480|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:59:25 +02:00
+2023-04-20 10:59:35.3536|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:59:35.3536|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:59:35 +02:00
+2023-04-20 10:59:45.3639|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:59:45.3639|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:59:45 +02:00
+2023-04-20 10:59:55.3759|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 10:59:55.3759|INFO|PlanningService.Worker|Worker running at: 04/20/2023 10:59:55 +02:00
+2023-04-20 11:00:05.3816|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:00:05.3816|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:00:05 +02:00
+2023-04-20 11:00:15.3922|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:00:15.3922|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:00:15 +02:00
+2023-04-20 11:00:25.4044|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:00:25.4044|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:00:25 +02:00
+2023-04-20 11:00:35.4138|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:00:35.4138|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:00:35 +02:00
+2023-04-20 11:00:45.4217|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:00:45.4217|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:00:45 +02:00
+2023-04-20 11:00:55.4295|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:00:55.4295|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:00:55 +02:00
+2023-04-20 11:01:05.4456|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:01:05.4456|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:01:05 +02:00
+2023-04-20 11:01:15.4561|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:01:15.4561|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:01:15 +02:00
+2023-04-20 11:01:25.4664|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:01:25.4664|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:01:25 +02:00
+2023-04-20 11:01:35.4706|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:01:35.4706|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:01:35 +02:00
+2023-04-20 11:01:45.4828|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:01:45.4828|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:01:45 +02:00
+2023-04-20 11:01:55.4962|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:01:55.4962|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:01:55 +02:00
+2023-04-20 11:02:05.5042|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:02:05.5042|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:02:05 +02:00
+2023-04-20 11:02:15.5045|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:02:15.5045|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:02:15 +02:00
+2023-04-20 11:02:25.5120|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:02:25.5120|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:02:25 +02:00
+2023-04-20 11:02:35.5212|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:02:35.5212|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:02:35 +02:00
+2023-04-20 11:02:45.5304|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:02:45.5304|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:02:45 +02:00
+2023-04-20 11:02:55.5331|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:02:55.5331|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:02:55 +02:00
+2023-04-20 11:03:05.5427|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:03:05.5442|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:03:05 +02:00
+2023-04-20 11:03:15.5449|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:03:15.5449|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:03:15 +02:00
+2023-04-20 11:03:25.5532|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:03:25.5532|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:03:25 +02:00
+2023-04-20 11:03:35.5681|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:03:35.5681|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:03:35 +02:00
+2023-04-20 11:03:45.5826|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:03:45.5826|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:03:45 +02:00
+2023-04-20 11:03:55.5935|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:03:55.5935|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:03:55 +02:00
+2023-04-20 11:04:05.5998|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:04:05.5998|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:04:05 +02:00
+2023-04-20 11:04:15.6103|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:04:15.6103|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:04:15 +02:00
+2023-04-20 11:04:25.6203|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:04:25.6213|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:04:25 +02:00
+2023-04-20 11:04:35.6313|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:04:35.6313|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:04:35 +02:00
+2023-04-20 11:04:45.6364|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:04:45.6364|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:04:45 +02:00
+2023-04-20 11:04:55.6447|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:04:55.6447|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:04:55 +02:00
+2023-04-20 11:05:05.6599|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:05:05.6599|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:05:05 +02:00
+2023-04-20 11:05:15.6756|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:05:15.6756|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:05:15 +02:00
+2023-04-20 11:05:25.6794|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:05:25.6794|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:05:25 +02:00
+2023-04-20 11:05:35.6889|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:05:35.6889|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:05:35 +02:00
+2023-04-20 11:05:45.7046|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:05:45.7046|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:05:45 +02:00
+2023-04-20 11:05:55.7171|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:05:55.7171|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:05:55 +02:00
+2023-04-20 11:06:05.7387|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:06:05.7387|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:06:05 +02:00
+2023-04-20 11:06:15.7402|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:06:15.7402|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:06:15 +02:00
+2023-04-20 11:06:25.7500|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:06:25.7500|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:06:25 +02:00
+2023-04-20 11:06:35.7579|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:06:35.7579|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:06:35 +02:00
+2023-04-20 11:06:45.7702|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:06:45.7702|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:06:45 +02:00
+2023-04-20 11:06:55.7851|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:06:55.7851|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:06:55 +02:00
+2023-04-20 11:07:05.7942|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:07:05.7942|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:07:05 +02:00
+2023-04-20 11:07:15.8035|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:07:15.8035|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:07:15 +02:00
+2023-04-20 11:07:25.8169|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:07:25.8169|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:07:25 +02:00
+2023-04-20 11:07:35.8308|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:07:35.8308|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:07:35 +02:00
+2023-04-20 11:07:45.8355|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:07:45.8355|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:07:45 +02:00
+2023-04-20 11:07:55.8475|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:07:55.8475|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:07:55 +02:00
+2023-04-20 11:08:05.8558|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:08:05.8558|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:08:05 +02:00
+2023-04-20 11:08:15.8707|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:08:15.8721|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:08:15 +02:00
+2023-04-20 11:08:25.8817|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:08:25.8817|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:08:25 +02:00
+2023-04-20 11:08:35.8876|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:08:35.8876|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:08:35 +02:00
+2023-04-20 11:08:45.8999|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:08:45.8999|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:08:45 +02:00
+2023-04-20 11:08:55.9149|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:08:55.9149|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:08:55 +02:00
+2023-04-20 11:09:05.9245|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:09:05.9245|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:09:05 +02:00
+2023-04-20 11:09:15.9347|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:09:15.9347|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:09:15 +02:00
+2023-04-20 11:09:25.9403|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:09:25.9403|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:09:25 +02:00
+2023-04-20 11:09:35.9423|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:09:35.9423|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:09:35 +02:00
+2023-04-20 11:09:45.9488|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:09:45.9488|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:09:45 +02:00
+2023-04-20 11:09:55.9613|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:09:55.9613|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:09:55 +02:00
+2023-04-20 11:10:05.9698|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:10:05.9698|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:10:05 +02:00
+2023-04-20 11:10:15.9731|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:10:15.9731|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:10:15 +02:00
+2023-04-20 11:10:25.9855|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:10:25.9855|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:10:25 +02:00
+2023-04-20 11:10:35.9973|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:10:35.9973|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:10:35 +02:00
+2023-04-20 11:10:46.0000|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:10:46.0000|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:10:46 +02:00
+2023-04-20 11:10:56.0096|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:10:56.0096|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:10:56 +02:00
+2023-04-20 11:11:06.0195|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:11:06.0195|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:11:06 +02:00
+2023-04-20 11:11:16.0364|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:11:16.0364|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:11:16 +02:00
+2023-04-20 11:11:26.0483|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:11:26.0483|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:11:26 +02:00
+2023-04-20 11:11:36.0536|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:11:36.0536|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:11:36 +02:00
+2023-04-20 11:11:46.0676|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:11:46.0676|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:11:46 +02:00
+2023-04-20 11:11:56.0700|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:11:56.0700|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:11:56 +02:00
+2023-04-20 11:12:06.0736|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:12:06.0736|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:12:06 +02:00
+2023-04-20 11:12:16.0834|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:12:16.0834|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:12:16 +02:00
+2023-04-20 11:12:26.0872|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:12:26.0872|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:12:26 +02:00
+2023-04-20 11:12:36.1009|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:12:36.1009|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:12:36 +02:00
+2023-04-20 11:12:46.1048|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:12:46.1048|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:12:46 +02:00
+2023-04-20 11:12:56.1133|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:12:56.1133|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:12:56 +02:00
+2023-04-20 11:13:06.1224|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:13:06.1224|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:13:06 +02:00
+2023-04-20 11:13:16.1250|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:13:16.1250|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:13:16 +02:00
+2023-04-20 11:13:26.1304|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:13:26.1304|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:13:26 +02:00
+2023-04-20 11:13:36.1378|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:13:36.1378|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:13:36 +02:00
+2023-04-20 11:13:46.1400|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:13:46.1400|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:13:46 +02:00
+2023-04-20 11:13:56.1505|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:13:56.1505|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:13:56 +02:00
+2023-04-20 11:14:06.1578|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:14:06.1578|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:14:06 +02:00
+2023-04-20 11:14:16.1704|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:14:16.1704|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:14:16 +02:00
+2023-04-20 11:14:26.1796|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:14:26.1796|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:14:26 +02:00
+2023-04-20 11:14:36.1913|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:14:36.1913|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:14:36 +02:00
+2023-04-20 11:14:46.1969|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:14:46.1969|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:14:46 +02:00
+2023-04-20 11:14:56.2062|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:14:56.2062|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:14:56 +02:00
+2023-04-20 11:15:06.2187|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:15:06.2187|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:15:06 +02:00
+2023-04-20 11:15:16.2220|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:15:16.2220|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:15:16 +02:00
+2023-04-20 11:15:26.2356|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:15:26.2356|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:15:26 +02:00
+2023-04-20 11:15:36.2512|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:15:36.2512|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:15:36 +02:00
+2023-04-20 11:15:46.2588|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:15:46.2588|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:15:46 +02:00
+2023-04-20 11:15:56.2655|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:15:56.2655|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:15:56 +02:00
+2023-04-20 11:16:06.2730|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:16:06.2730|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:16:06 +02:00
+2023-04-20 11:16:16.2867|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:16:16.2867|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:16:16 +02:00
+2023-04-20 11:16:26.2872|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:16:26.2872|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:16:26 +02:00
+2023-04-20 11:16:36.2953|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:16:36.2953|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:16:36 +02:00
+2023-04-20 11:16:46.3041|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:16:46.3041|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:16:46 +02:00
+2023-04-20 11:16:56.3199|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:16:56.3199|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:16:56 +02:00
+2023-04-20 11:17:06.3341|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:17:06.3341|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:17:06 +02:00
+2023-04-20 11:17:16.3513|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:17:16.3513|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:17:16 +02:00
+2023-04-20 11:17:26.3548|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:17:26.3556|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:17:26 +02:00
+2023-04-20 11:17:36.3700|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:17:36.3700|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:17:36 +02:00
+2023-04-20 11:17:46.3714|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:17:46.3714|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:17:46 +02:00
+2023-04-20 11:17:56.3765|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:17:56.3765|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:17:56 +02:00
+2023-04-20 11:18:06.3913|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:18:06.3913|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:18:06 +02:00
+2023-04-20 11:18:16.3948|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:18:16.3948|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:18:16 +02:00
+2023-04-20 11:18:26.3985|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:18:26.3985|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:18:26 +02:00
+2023-04-20 11:18:36.4106|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:18:36.4106|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:18:36 +02:00
+2023-04-20 11:18:46.4222|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:18:46.4222|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:18:46 +02:00
+2023-04-20 11:18:56.4359|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:18:56.4359|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:18:56 +02:00
+2023-04-20 11:19:06.4436|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:19:06.4436|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:19:06 +02:00
+2023-04-20 11:19:16.4464|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:19:16.4464|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:19:16 +02:00
+2023-04-20 11:19:26.4599|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:19:26.4599|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:19:26 +02:00
+2023-04-20 11:19:36.4759|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:19:36.4759|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:19:36 +02:00
+2023-04-20 11:19:46.4915|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:19:46.4915|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:19:46 +02:00
+2023-04-20 11:19:56.5041|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:19:56.5041|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:19:56 +02:00
+2023-04-20 11:20:06.5158|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:20:06.5158|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:20:06 +02:00
+2023-04-20 11:20:16.5209|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:20:16.5209|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:20:16 +02:00
+2023-04-20 11:20:26.5352|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:20:26.5352|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:20:26 +02:00
+2023-04-20 11:20:32.8197|INFO|PlanningService.Worker| [x] Received 'Service':'Hello World!' C:\Users\jacob\Music\MicroProject\PlanningService\Service.csv
+2023-04-20 11:20:32.8197|INFO|PlanningService.Worker|Sending: 
+2023-04-20 11:20:36.5464|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:20:36.5464|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:20:36 +02:00
+2023-04-20 11:20:46.5514|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:20:46.5514|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:20:46 +02:00
+2023-04-20 11:20:56.5514|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:20:56.5514|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:20:56 +02:00
+2023-04-20 11:20:58.2951|INFO|PlanningService.Worker| [x] Received 'Service':'Hello World!' C:\Users\jacob\Music\MicroProject\PlanningService\Service.csv
+2023-04-20 11:20:58.2951|INFO|PlanningService.Worker|Sending: 
+2023-04-20 11:21:06.5642|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:21:06.5642|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:21:06 +02:00
+2023-04-20 11:21:16.5727|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:21:16.5727|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:21:16 +02:00
+2023-04-20 11:21:26.5761|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:21:26.5761|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:21:26 +02:00
+2023-04-20 11:21:36.5929|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:21:36.5929|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:21:36 +02:00
+2023-04-20 11:21:46.5947|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:21:46.5947|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:21:46 +02:00
+2023-04-20 11:21:56.6055|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:21:56.6055|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:21:56 +02:00
+2023-04-20 11:22:06.6165|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:22:06.6165|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:22:06 +02:00
+2023-04-20 11:22:16.6204|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:22:16.6204|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:22:16 +02:00
+2023-04-20 11:22:26.6366|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:22:26.6366|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:22:26 +02:00
+2023-04-20 11:22:36.6394|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:22:36.6394|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:22:36 +02:00
+2023-04-20 11:22:46.6437|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:22:46.6437|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:22:46 +02:00
+2023-04-20 11:22:56.6549|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:22:56.6549|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:22:56 +02:00
+2023-04-20 11:23:06.6710|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:23:06.6710|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:23:06 +02:00
+2023-04-20 11:23:16.6718|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:23:16.6718|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:23:16 +02:00
+2023-04-20 11:23:26.6867|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:23:26.6867|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:23:26 +02:00
+2023-04-20 11:23:36.6934|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:23:36.6934|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:23:36 +02:00
+2023-04-20 11:23:46.7009|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:23:46.7009|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:23:46 +02:00
+2023-04-20 11:23:56.7059|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:23:56.7059|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:23:56 +02:00
+2023-04-20 11:24:06.7151|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:24:06.7151|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:24:06 +02:00
+2023-04-20 11:24:16.7268|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:24:16.7268|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:24:16 +02:00
+2023-04-20 11:24:26.7428|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:24:26.7428|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:24:26 +02:00
+2023-04-20 11:24:36.7571|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:24:36.7571|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:24:36 +02:00
+2023-04-20 11:24:46.7728|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:24:46.7728|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:24:46 +02:00
+2023-04-20 11:24:56.7774|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:24:56.7789|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:24:56 +02:00
+2023-04-20 11:24:57.9499|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...
+2023-04-20 11:24:57.9499|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopping
+2023-04-20 11:24:57.9499|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopped
+2023-04-20 11:26:24.3154|DEBUG|Program|init main
+2023-04-20 11:26:24.3723|INFO|Program|HejHej
+2023-04-20 11:26:24.3723|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2023-04-20 11:26:24.4879|INFO|PlanningService.Worker|WW Service   C:\Users\jacob\Music\MicroProject\PlanningService
+2023-04-20 11:26:24.5043|INFO|PlanningService.Worker|2
+2023-04-20 11:26:24.5043|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:26:24.5127|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:26:24 +02:00
+2023-04-20 11:26:24.5127|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-04-20 11:26:24.5127|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2023-04-20 11:26:24.5127|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\jacob\Music\MicroProject\PlanningService
+2023-04-20 11:26:24.5127|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2023-04-20 11:26:34.5261|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:26:34.5276|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:26:34 +02:00
+2023-04-20 11:26:44.5411|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:26:44.5411|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:26:44 +02:00
+2023-04-20 11:26:54.5547|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:26:54.5547|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:26:54 +02:00
+2023-04-20 11:27:04.5620|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:27:04.5620|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:27:04 +02:00
+2023-04-20 11:27:14.5737|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:27:14.5753|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:27:14 +02:00
+2023-04-20 11:27:24.5774|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:27:24.5774|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:27:24 +02:00
+2023-04-20 11:27:34.5867|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:27:34.5867|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:27:34 +02:00
+2023-04-20 11:27:44.6037|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:27:44.6037|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:27:44 +02:00
+2023-04-20 11:27:54.6076|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:27:54.6076|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:27:54 +02:00
+2023-04-20 11:28:04.6125|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:28:04.6125|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:28:04 +02:00
+2023-04-20 11:28:14.6173|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:28:14.6173|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:28:14 +02:00
+2023-04-20 11:28:24.6264|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:28:24.6264|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:28:24 +02:00
+2023-04-20 11:28:34.6284|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:28:34.6284|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:28:34 +02:00
+2023-04-20 11:28:42.5792|INFO|PlanningService.Worker| [x] Received 'Service':'{"ID":1,"Execution":"Fiskehandler","ServiceType":"Service","Customer":"John","CurrentDate":"2017-09-08T18:01:55.714942+02:00"}' C:\Users\jacob\Music\MicroProject\PlanningService\Service.csv
+2023-04-20 11:28:42.5792|INFO|PlanningService.Worker|Sending: 1,Fiskehandler,Service,John,2017-09-08T18:01:55.714942+02:00
+2023-04-20 11:28:44.6323|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:28:44.6323|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:28:44 +02:00
+2023-04-20 11:28:54.6450|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:28:54.6450|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:28:54 +02:00
+2023-04-20 11:29:04.6596|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:29:04.6596|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:29:04 +02:00
+2023-04-20 11:29:14.6740|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:29:14.6740|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:29:14 +02:00
+2023-04-20 11:29:24.6755|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:29:24.6755|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:29:24 +02:00
+2023-04-20 11:29:30.1958|INFO|PlanningService.Worker| [x] Received 'Service':'{"ID":1,"Execution":"Fiskehandler","ServiceType":"Service","Customer":"John","CurrentDate":"2023-04-20T18:01:55.714942+02:00"}' C:\Users\jacob\Music\MicroProject\PlanningService\Service.csv
+2023-04-20 11:29:30.1958|INFO|PlanningService.Worker|Sending: 1,Fiskehandler,Service,John,2023-04-20T18:01:55.714942+02:00
+2023-04-20 11:29:34.6759|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:29:34.6759|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:29:34 +02:00
+2023-04-20 11:29:44.6827|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 11:29:44.6835|INFO|PlanningService.Worker|Worker running at: 04/20/2023 11:29:44 +02:00
+2023-04-20 11:29:49.6975|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...
+2023-04-20 11:29:49.6975|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopping
+2023-04-20 11:29:49.7013|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopped
+2023-04-20 12:19:15.4907|DEBUG|Program|init main
+2023-04-20 12:19:15.5687|INFO|Program|HejHej
+2023-04-20 12:19:15.5760|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2023-04-20 12:19:15.6465|INFO|PlanningService.Worker|csvLocation: 
+2023-04-20 12:19:15.6465|INFO|PlanningService.Worker|RouteWays: {rWays}
+2023-04-20 12:19:15.6541|INFO|PlanningService.Worker|0
+2023-04-20 12:19:15.6541|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:19:15.6541|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:19:15 +02:00
+2023-04-20 12:19:15.6541|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-04-20 12:19:15.6541|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2023-04-20 12:19:15.6541|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\jacob\Music\MicroProject\PlanningService
+2023-04-20 12:19:15.6541|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2023-04-20 12:19:25.6710|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:19:25.6710|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:19:25 +02:00
+2023-04-20 12:19:35.6806|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:19:35.6806|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:19:35 +02:00
+2023-04-20 12:19:45.6865|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:19:45.6865|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:19:45 +02:00
+2023-04-20 12:19:55.7002|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:19:55.7002|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:19:55 +02:00
+2023-04-20 12:20:05.7133|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:20:05.7133|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:20:05 +02:00
+2023-04-20 12:20:15.7254|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:20:15.7254|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:20:15 +02:00
+2023-04-20 12:20:25.7444|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:20:25.7444|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:20:25 +02:00
+2023-04-20 12:20:35.7537|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:20:35.7537|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:20:35 +02:00
+2023-04-20 12:20:45.7617|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:20:45.7617|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:20:45 +02:00
+2023-04-20 12:20:55.7751|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:20:55.7751|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:20:55 +02:00
+2023-04-20 12:21:05.8054|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:21:05.8054|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:21:05 +02:00
+2023-04-20 12:21:15.8101|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:21:15.8101|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:21:15 +02:00
+2023-04-20 12:21:25.8183|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:21:25.8183|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:21:25 +02:00
+2023-04-20 12:21:35.8230|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:21:35.8230|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:21:35 +02:00
+2023-04-20 12:21:45.8282|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:21:45.8282|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:21:45 +02:00
+2023-04-20 12:21:55.8392|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:21:55.8392|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:21:55 +02:00
+2023-04-20 12:21:59.4557|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...
+2023-04-20 12:21:59.4575|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopping
+2023-04-20 12:21:59.4575|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopped
+2023-04-20 12:22:07.3046|DEBUG|Program|init main
+2023-04-20 12:22:07.3584|INFO|Program|HejHej
+2023-04-20 12:22:07.3647|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2023-04-20 12:22:07.4286|INFO|PlanningService.Worker|csvLocation: 
+2023-04-20 12:22:07.4286|INFO|PlanningService.Worker|RouteWays: {rWays}
+2023-04-20 12:22:07.4413|INFO|PlanningService.Worker|2
+2023-04-20 12:22:07.4413|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:22:07.4413|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:22:07 +02:00
+2023-04-20 12:22:07.4509|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-04-20 12:22:07.4509|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2023-04-20 12:22:07.4509|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\jacob\Music\MicroProject\PlanningService
+2023-04-20 12:22:07.4509|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2023-04-20 12:22:17.4538|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:22:17.4538|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:22:17 +02:00
+2023-04-20 12:22:19.0570|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...
+2023-04-20 12:22:19.0570|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopping
+2023-04-20 12:22:19.0614|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopped
+2023-04-20 12:22:27.5415|DEBUG|Program|init main
+2023-04-20 12:22:27.6168|INFO|Program|HejHej
+2023-04-20 12:22:27.6243|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2023-04-20 12:22:27.6906|INFO|PlanningService.Worker|csvLocation: 
+2023-04-20 12:22:27.6906|INFO|PlanningService.Worker|RouteWays: Service Repair 
+2023-04-20 12:22:27.7041|INFO|PlanningService.Worker|2
+2023-04-20 12:22:27.7041|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:22:27.7041|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:22:27 +02:00
+2023-04-20 12:22:27.7041|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-04-20 12:22:27.7041|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2023-04-20 12:22:27.7041|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\jacob\Music\MicroProject\PlanningService
+2023-04-20 12:22:27.7041|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2023-04-20 12:22:32.9574|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...
+2023-04-20 12:22:32.9595|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopping
+2023-04-20 12:22:32.9650|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopped
+2023-04-20 12:22:40.4334|DEBUG|Program|init main
+2023-04-20 12:22:40.4973|INFO|Program|HejHej
+2023-04-20 12:22:40.5034|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2023-04-20 12:22:40.5673|INFO|PlanningService.Worker|csvLocation: 
+2023-04-20 12:22:40.5673|INFO|PlanningService.Worker|RouteWays: Service, Repair, 
+2023-04-20 12:22:40.5790|INFO|PlanningService.Worker|2
+2023-04-20 12:22:40.5790|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:22:40.5790|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:22:40 +02:00
+2023-04-20 12:22:40.5790|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-04-20 12:22:40.5790|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2023-04-20 12:22:40.5790|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\jacob\Music\MicroProject\PlanningService
+2023-04-20 12:22:40.5790|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2023-04-20 12:22:47.6739|INFO|PlanningService.Worker| [x] Received 'Service':'{"ID":1,"Execution":"Hjul virker ikke","ServiceType":"Service","Customer":"Henrik","CurrentDate":"2023-04-20T18:01:55.714942+02:00"}' C:\Users\jacob\Music\MicroProject\PlanningService\Service.csv
+2023-04-20 12:22:47.6739|INFO|PlanningService.Worker|Sending: 1,Hjul virker ikke,Service,Henrik,2023-04-20T18:01:55.714942+02:00
+2023-04-20 12:22:50.5927|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:22:50.5927|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:22:50 +02:00
+2023-04-20 12:23:00.6048|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:23:00.6063|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:23:00 +02:00
+2023-04-20 12:23:10.6191|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:23:10.6191|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:23:10 +02:00
+2023-04-20 12:23:20.6196|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:23:20.6196|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:23:20 +02:00
+2023-04-20 12:23:30.6235|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:23:30.6235|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:23:30 +02:00
+2023-04-20 12:23:40.6401|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:23:40.6401|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:23:40 +02:00
+2023-04-20 12:23:50.6464|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:23:50.6464|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:23:50 +02:00
+2023-04-20 12:24:00.6481|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:24:00.6481|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:24:00 +02:00
+2023-04-20 12:24:10.6589|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:24:10.6589|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:24:10 +02:00
+2023-04-20 12:24:20.6707|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:24:20.6707|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:24:20 +02:00
+2023-04-20 12:24:30.6730|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:24:30.6730|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:24:30 +02:00
+2023-04-20 12:24:35.0744|INFO|PlanningService.Worker| [x] Received 'Service':'{"ID":2,"Execution":"Hjul virker","ServiceType":"Service","Customer":"Henning","CurrentDate":"2023-04-20T18:01:55.714942+02:00"}' C:\Users\jacob\Music\MicroProject\PlanningService\Service.csv
+2023-04-20 12:24:35.0744|INFO|PlanningService.Worker|Sending: 2,Hjul virker,Service,Henning,2023-04-20T18:01:55.714942+02:00
+2023-04-20 12:24:40.6812|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:24:40.6812|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:24:40 +02:00
+2023-04-20 12:24:50.6887|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:24:50.6887|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:24:50 +02:00
+2023-04-20 12:25:00.6951|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:25:00.6951|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:25:00 +02:00
+2023-04-20 12:25:10.6978|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:25:10.6978|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:25:10 +02:00
+2023-04-20 12:25:20.7073|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:25:20.7073|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:25:20 +02:00
+2023-04-20 12:25:29.7500|INFO|PlanningService.Worker| [x] Received 'Service':'{"ID":2,"Execution":"Hjul virker","ServiceType":"Service","Customer":"Henning","CurrentDate":"2023-04-20T18:01:55.714942+02:00"}' C:\Users\jacob\Music\MicroProject\PlanningService\Service.csv
+2023-04-20 12:25:29.7500|INFO|PlanningService.Worker|Sending: 2,Hjul virker,Service,Henning,2023-04-20T18:01:55.714942+02:00
+2023-04-20 12:25:30.7202|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:25:30.7202|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:25:30 +02:00
+2023-04-20 12:25:40.7352|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:25:40.7352|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:25:40 +02:00
+2023-04-20 12:25:50.1373|INFO|PlanningService.Worker| [x] Received 'Service':'{"ID":2,"Execution":"Hjul virker","ServiceType":"Service","Customer":"Henning","CurrentDate":"2023-04-20T18:01:55.714942+02:00"}' C:\Users\jacob\Music\MicroProject\PlanningService\Service.csv
+2023-04-20 12:25:50.1373|INFO|PlanningService.Worker|Sending: 2,Hjul virker,Service,Henning,2023-04-20T18:01:55.714942+02:00
+2023-04-20 12:25:50.7495|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:25:50.7495|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:25:50 +02:00
+2023-04-20 12:25:57.4904|INFO|PlanningService.Worker| [x] Received 'Service':'{"ID":2,"Execution":"Hjul virker","ServiceType":"Service","Customer":"Henning","CurrentDate":"2023-04-20T18:01:55.714942+02:00"}' C:\Users\jacob\Music\MicroProject\PlanningService\Service.csv
+2023-04-20 12:25:57.4904|INFO|PlanningService.Worker|Sending: 2,Hjul virker,Service,Henning,2023-04-20T18:01:55.714942+02:00
+2023-04-20 12:26:00.7565|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:26:00.7565|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:26:00 +02:00
+2023-04-20 12:26:10.7656|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:26:10.7656|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:26:10 +02:00
+2023-04-20 12:26:20.7810|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:26:20.7810|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:26:20 +02:00
+2023-04-20 12:26:30.7883|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:26:30.7883|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:26:30 +02:00
+2023-04-20 12:26:40.7936|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:26:40.7936|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:26:40 +02:00
+2023-04-20 12:26:50.7996|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:26:50.7996|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:26:50 +02:00
+2023-04-20 12:27:00.8110|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:27:00.8110|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:27:00 +02:00
+2023-04-20 12:27:10.8217|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:27:10.8217|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:27:10 +02:00
+2023-04-20 12:27:20.8334|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:27:20.8334|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:27:20 +02:00
+2023-04-20 12:27:30.8409|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:27:30.8409|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:27:30 +02:00
+2023-04-20 12:27:40.8593|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:27:40.8593|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:27:40 +02:00
+2023-04-20 12:27:50.8638|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:27:50.8638|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:27:50 +02:00
+2023-04-20 12:28:00.8688|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:28:00.8688|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:28:00 +02:00
+2023-04-20 12:28:10.8743|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:28:10.8743|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:28:10 +02:00
+2023-04-20 12:28:20.8848|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:28:20.8848|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:28:20 +02:00
+2023-04-20 12:28:30.9070|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:28:30.9070|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:28:30 +02:00
+2023-04-20 12:28:40.9200|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:28:40.9200|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:28:40 +02:00
+2023-04-20 12:28:50.9248|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:28:50.9248|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:28:50 +02:00
+2023-04-20 12:29:00.9311|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:29:00.9311|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:29:00 +02:00
+2023-04-20 12:29:10.9408|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:29:10.9408|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:29:10 +02:00
+2023-04-20 12:29:20.9521|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:29:20.9521|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:29:20 +02:00
+2023-04-20 12:29:30.9579|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:29:30.9579|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:29:30 +02:00
+2023-04-20 12:29:40.9616|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:29:40.9616|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:29:40 +02:00
+2023-04-20 12:29:50.9762|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:29:50.9762|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:29:50 +02:00
+2023-04-20 12:30:00.9915|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:30:00.9915|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:30:00 +02:00
+2023-04-20 12:30:10.9935|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:30:10.9935|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:30:10 +02:00
+2023-04-20 12:30:21.0003|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:30:21.0003|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:30:21 +02:00
+2023-04-20 12:30:31.0106|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:30:31.0106|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:30:31 +02:00
+2023-04-20 12:30:41.0113|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:30:41.0113|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:30:41 +02:00
+2023-04-20 12:30:51.0176|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:30:51.0176|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:30:51 +02:00
+2023-04-20 12:31:01.0187|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:31:01.0187|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:31:01 +02:00
+2023-04-20 12:31:11.0347|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:31:11.0347|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:31:11 +02:00
+2023-04-20 12:31:21.0536|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:31:21.0536|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:31:21 +02:00
+2023-04-20 12:31:31.0748|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:31:31.0748|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:31:31 +02:00
+2023-04-20 12:31:41.0773|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:31:41.0773|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:31:41 +02:00
+2023-04-20 12:31:51.0883|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:31:51.0883|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:31:51 +02:00
+2023-04-20 12:32:01.0941|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:32:01.0941|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:32:01 +02:00
+2023-04-20 12:32:11.1084|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:32:11.1084|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:32:11 +02:00
+2023-04-20 12:32:21.1260|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:32:21.1260|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:32:21 +02:00
+2023-04-20 12:32:31.1405|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:32:31.1405|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:32:31 +02:00
+2023-04-20 12:32:41.1477|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:32:41.1477|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:32:41 +02:00
+2023-04-20 12:32:51.1647|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:32:51.1647|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:32:51 +02:00
+2023-04-20 12:33:01.1667|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:33:01.1667|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:33:01 +02:00
+2023-04-20 12:33:11.1722|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:33:11.1722|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:33:11 +02:00
+2023-04-20 12:33:21.1754|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:33:21.1754|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:33:21 +02:00
+2023-04-20 12:33:31.1917|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:33:31.1917|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:33:31 +02:00
+2023-04-20 12:33:41.1961|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:33:41.1961|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:33:41 +02:00
+2023-04-20 12:33:51.2025|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:33:51.2025|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:33:51 +02:00
+2023-04-20 12:34:01.2231|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:34:01.2231|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:34:01 +02:00
+2023-04-20 12:34:11.2333|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:34:11.2333|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:34:11 +02:00
+2023-04-20 12:34:21.2349|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:34:21.2349|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:34:21 +02:00
+2023-04-20 12:34:31.2418|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:34:31.2418|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:34:31 +02:00
+2023-04-20 12:34:41.2447|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:34:41.2447|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:34:41 +02:00
+2023-04-20 12:34:51.2530|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:34:51.2530|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:34:51 +02:00
+2023-04-20 12:35:01.2659|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:35:01.2659|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:35:01 +02:00
+2023-04-20 12:35:11.2825|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:35:11.2825|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:35:11 +02:00
+2023-04-20 12:35:21.2908|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:35:21.2908|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:35:21 +02:00
+2023-04-20 12:35:31.3031|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:35:31.3031|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:35:31 +02:00
+2023-04-20 12:35:41.3056|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:35:41.3056|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:35:41 +02:00
+2023-04-20 12:35:51.3118|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:35:51.3118|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:35:51 +02:00
+2023-04-20 12:36:01.3200|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:36:01.3200|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:36:01 +02:00
+2023-04-20 12:36:11.3202|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:36:11.3202|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:36:11 +02:00
+2023-04-20 12:36:21.3244|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:36:21.3244|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:36:21 +02:00
+2023-04-20 12:36:31.3300|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:36:31.3300|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:36:31 +02:00
+2023-04-20 12:36:41.3399|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:36:41.3399|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:36:41 +02:00
+2023-04-20 12:36:51.3428|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:36:51.3428|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:36:51 +02:00
+2023-04-20 12:37:01.3568|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:37:01.3568|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:37:01 +02:00
+2023-04-20 12:37:11.3575|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:37:11.3575|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:37:11 +02:00
+2023-04-20 12:37:21.3576|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:37:21.3576|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:37:21 +02:00
+2023-04-20 12:37:31.3584|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:37:31.3584|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:37:31 +02:00
+2023-04-20 12:37:41.3585|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:37:41.3585|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:37:41 +02:00
+2023-04-20 12:37:51.3769|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:37:51.3769|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:37:51 +02:00
+2023-04-20 12:38:01.3927|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:38:01.3927|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:38:01 +02:00
+2023-04-20 12:38:11.4117|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:38:11.4117|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:38:11 +02:00
+2023-04-20 12:38:21.4326|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:38:21.4326|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:38:21 +02:00
+2023-04-20 12:38:31.4404|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:38:31.4404|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:38:31 +02:00
+2023-04-20 12:38:41.4513|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:38:41.4513|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:38:41 +02:00
+2023-04-20 12:38:51.4611|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:38:51.4611|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:38:51 +02:00
+2023-04-20 12:39:01.4626|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:39:01.4626|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:39:01 +02:00
+2023-04-20 12:39:11.4834|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:39:11.4834|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:39:11 +02:00
+2023-04-20 12:39:21.4930|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:39:21.4930|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:39:21 +02:00
+2023-04-20 12:39:31.5088|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:39:31.5088|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:39:31 +02:00
+2023-04-20 12:39:41.5210|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:39:41.5210|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:39:41 +02:00
+2023-04-20 12:39:51.5356|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:39:51.5356|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:39:51 +02:00
+2023-04-20 12:40:01.5466|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:40:01.5466|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:40:01 +02:00
+2023-04-20 12:40:11.5549|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:40:11.5549|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:40:11 +02:00
+2023-04-20 12:40:21.5683|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:40:21.5683|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:40:21 +02:00
+2023-04-20 12:40:31.5694|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:40:31.5694|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:40:31 +02:00
+2023-04-20 12:40:41.5780|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:40:41.5780|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:40:41 +02:00
+2023-04-20 12:40:51.5857|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:40:51.5857|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:40:51 +02:00
+2023-04-20 12:41:01.5894|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:41:01.5894|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:41:01 +02:00
+2023-04-20 12:41:11.5979|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:41:11.5979|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:41:11 +02:00
+2023-04-20 12:41:21.6124|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:41:21.6124|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:41:21 +02:00
+2023-04-20 12:41:31.6253|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:41:31.6253|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:41:31 +02:00
+2023-04-20 12:41:41.6377|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:41:41.6377|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:41:41 +02:00
+2023-04-20 12:41:51.6465|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:41:51.6465|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:41:51 +02:00
+2023-04-20 12:42:01.6520|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:42:01.6520|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:42:01 +02:00
+2023-04-20 12:42:11.6624|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:42:11.6624|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:42:11 +02:00
+2023-04-20 12:42:21.6647|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:42:21.6647|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:42:21 +02:00
+2023-04-20 12:42:31.6669|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:42:31.6669|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:42:31 +02:00
+2023-04-20 12:42:41.6708|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:42:41.6708|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:42:41 +02:00
+2023-04-20 12:42:51.6846|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:42:51.6846|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:42:51 +02:00
+2023-04-20 12:43:01.6901|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:43:01.6901|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:43:01 +02:00
+2023-04-20 12:43:11.6921|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:43:11.6921|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:43:11 +02:00
+2023-04-20 12:43:21.7050|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:43:21.7050|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:43:21 +02:00
+2023-04-20 12:43:31.7177|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:43:31.7177|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:43:31 +02:00
+2023-04-20 12:43:41.7309|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:43:41.7309|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:43:41 +02:00
+2023-04-20 12:43:51.7388|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:43:51.7388|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:43:51 +02:00
+2023-04-20 12:44:01.7467|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:44:01.7467|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:44:01 +02:00
+2023-04-20 12:44:11.7544|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:44:11.7544|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:44:11 +02:00
+2023-04-20 12:44:21.7658|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:44:21.7658|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:44:21 +02:00
+2023-04-20 12:44:31.7693|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:44:31.7693|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:44:31 +02:00
+2023-04-20 12:44:41.7826|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:44:41.7826|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:44:41 +02:00
+2023-04-20 12:44:51.7859|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:44:51.7859|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:44:51 +02:00
+2023-04-20 12:45:01.7916|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:45:01.7936|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:45:01 +02:00
+2023-04-20 12:45:11.8069|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:45:11.8069|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:45:11 +02:00
+2023-04-20 12:45:21.8099|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:45:21.8099|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:45:21 +02:00
+2023-04-20 12:45:31.8168|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:45:31.8168|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:45:31 +02:00
+2023-04-20 12:45:41.8215|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:45:41.8215|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:45:41 +02:00
+2023-04-20 12:45:51.8384|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:45:51.8401|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:45:51 +02:00
+2023-04-20 12:46:01.8547|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:46:01.8547|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:46:01 +02:00
+2023-04-20 12:46:11.8723|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:46:11.8723|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:46:11 +02:00
+2023-04-20 12:46:21.8899|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:46:21.8899|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:46:21 +02:00
+2023-04-20 12:46:31.8911|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:46:31.8911|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:46:31 +02:00
+2023-04-20 12:46:41.9072|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:46:41.9072|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:46:41 +02:00
+2023-04-20 12:46:51.9120|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:46:51.9120|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:46:51 +02:00
+2023-04-20 12:47:01.9185|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:47:01.9185|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:47:01 +02:00
+2023-04-20 12:47:11.9365|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:47:11.9365|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:47:11 +02:00
+2023-04-20 12:47:21.9560|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:47:21.9560|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:47:21 +02:00
+2023-04-20 12:47:31.9753|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:47:31.9753|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:47:31 +02:00
+2023-04-20 12:47:41.9857|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:47:41.9857|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:47:41 +02:00
+2023-04-20 12:47:52.0030|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:47:52.0030|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:47:52 +02:00
+2023-04-20 12:48:02.0208|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:48:02.0208|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:48:02 +02:00
+2023-04-20 12:48:12.0366|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:48:12.0366|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:48:12 +02:00
+2023-04-20 12:48:22.0402|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:48:22.0402|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:48:22 +02:00
+2023-04-20 12:48:32.0439|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:48:32.0439|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:48:32 +02:00
+2023-04-20 12:48:42.0564|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:48:42.0564|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:48:42 +02:00
+2023-04-20 12:48:52.0713|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:48:52.0713|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:48:52 +02:00
+2023-04-20 12:49:02.0730|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:49:02.0730|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:49:02 +02:00
+2023-04-20 12:49:12.0757|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:49:12.0757|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:49:12 +02:00
+2023-04-20 12:49:22.0800|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:49:22.0800|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:49:22 +02:00
+2023-04-20 12:49:32.0898|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:49:32.0898|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:49:32 +02:00
+2023-04-20 12:49:42.0932|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:49:42.0932|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:49:42 +02:00
+2023-04-20 12:49:52.1086|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:49:52.1086|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:49:52 +02:00
+2023-04-20 12:50:02.1265|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:50:02.1265|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:50:02 +02:00
+2023-04-20 12:50:12.1441|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:50:12.1441|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:50:12 +02:00
+2023-04-20 12:50:22.1615|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:50:22.1615|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:50:22 +02:00
+2023-04-20 12:50:32.1792|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:50:32.1792|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:50:32 +02:00
+2023-04-20 12:50:42.1979|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:50:42.1979|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:50:42 +02:00
+2023-04-20 12:50:52.1993|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:50:52.1993|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:50:52 +02:00
+2023-04-20 12:51:02.2002|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:51:02.2002|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:51:02 +02:00
+2023-04-20 12:51:12.2164|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:51:12.2164|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:51:12 +02:00
+2023-04-20 12:51:22.2179|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:51:22.2179|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:51:22 +02:00
+2023-04-20 12:51:32.2257|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:51:32.2257|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:51:32 +02:00
+2023-04-20 12:51:42.2349|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:51:42.2349|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:51:42 +02:00
+2023-04-20 12:51:52.2418|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:51:52.2418|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:51:52 +02:00
+2023-04-20 12:52:02.2451|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:52:02.2471|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:52:02 +02:00
+2023-04-20 12:52:12.2690|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:52:12.2690|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:52:12 +02:00
+2023-04-20 12:52:22.2692|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:52:22.2692|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:52:22 +02:00
+2023-04-20 12:52:32.2834|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:52:32.2834|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:52:32 +02:00
+2023-04-20 12:52:42.2963|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:52:42.2963|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:52:42 +02:00
+2023-04-20 12:52:52.3101|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:52:52.3101|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:52:52 +02:00
+2023-04-20 12:53:02.3175|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:53:02.3175|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:53:02 +02:00
+2023-04-20 12:53:12.3396|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:53:12.3396|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:53:12 +02:00
+2023-04-20 12:53:22.3583|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:53:22.3583|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:53:22 +02:00
+2023-04-20 12:53:32.3793|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:53:32.3793|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:53:32 +02:00
+2023-04-20 12:53:42.3834|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:53:42.3834|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:53:42 +02:00
+2023-04-20 12:53:52.3886|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:53:52.3886|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:53:52 +02:00
+2023-04-20 12:54:02.4047|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:54:02.4047|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:54:02 +02:00
+2023-04-20 12:54:12.4119|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:54:12.4119|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:54:12 +02:00
+2023-04-20 12:54:22.4219|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:54:22.4219|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:54:22 +02:00
+2023-04-20 12:54:32.4314|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:54:32.4314|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:54:32 +02:00
+2023-04-20 12:54:42.4382|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:54:42.4382|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:54:42 +02:00
+2023-04-20 12:54:52.4466|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:54:52.4466|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:54:52 +02:00
+2023-04-20 12:55:02.4672|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:55:02.4672|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:55:02 +02:00
+2023-04-20 12:55:12.4917|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:55:12.4917|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:55:12 +02:00
+2023-04-20 12:55:22.4946|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:55:22.4946|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:55:22 +02:00
+2023-04-20 12:55:32.5081|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:55:32.5081|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:55:32 +02:00
+2023-04-20 12:55:42.5239|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:55:42.5239|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:55:42 +02:00
+2023-04-20 12:55:52.5519|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:55:52.5519|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:55:52 +02:00
+2023-04-20 12:56:02.5594|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:56:02.5594|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:56:02 +02:00
+2023-04-20 12:56:12.5757|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:56:12.5757|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:56:12 +02:00
+2023-04-20 12:56:22.5839|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:56:22.5839|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:56:22 +02:00
+2023-04-20 12:56:32.5873|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:56:32.5873|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:56:32 +02:00
+2023-04-20 12:56:42.5961|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:56:42.5961|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:56:42 +02:00
+2023-04-20 12:56:52.6001|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:56:52.6001|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:56:52 +02:00
+2023-04-20 12:57:02.6049|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:57:02.6049|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:57:02 +02:00
+2023-04-20 12:57:12.6192|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:57:12.6192|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:57:12 +02:00
+2023-04-20 12:57:22.6215|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:57:22.6215|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:57:22 +02:00
+2023-04-20 12:57:32.6354|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:57:32.6354|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:57:32 +02:00
+2023-04-20 12:57:42.6397|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:57:42.6397|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:57:42 +02:00
+2023-04-20 12:57:52.6542|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:57:52.6542|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:57:52 +02:00
+2023-04-20 12:58:02.6631|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:58:02.6631|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:58:02 +02:00
+2023-04-20 12:58:12.6683|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:58:12.6683|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:58:12 +02:00
+2023-04-20 12:58:22.6743|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:58:22.6743|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:58:22 +02:00
+2023-04-20 12:58:32.6889|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:58:32.6889|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:58:32 +02:00
+2023-04-20 12:58:42.6944|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:58:42.6944|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:58:42 +02:00
+2023-04-20 12:58:52.7025|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:58:52.7025|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:58:52 +02:00
+2023-04-20 12:59:02.7153|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:59:02.7153|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:59:02 +02:00
+2023-04-20 12:59:12.7295|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:59:12.7295|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:59:12 +02:00
+2023-04-20 12:59:22.7387|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:59:22.7387|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:59:22 +02:00
+2023-04-20 12:59:32.7503|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:59:32.7503|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:59:32 +02:00
+2023-04-20 12:59:42.7576|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:59:42.7576|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:59:42 +02:00
+2023-04-20 12:59:52.7622|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 12:59:52.7622|INFO|PlanningService.Worker|Worker running at: 04/20/2023 12:59:52 +02:00
+2023-04-20 13:00:02.7826|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:00:02.7826|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:00:02 +02:00
+2023-04-20 13:00:12.7854|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:00:12.7854|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:00:12 +02:00
+2023-04-20 13:00:22.7942|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:00:22.7942|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:00:22 +02:00
+2023-04-20 13:00:32.8026|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:00:32.8026|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:00:32 +02:00
+2023-04-20 13:00:42.8066|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:00:42.8066|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:00:42 +02:00
+2023-04-20 13:00:52.8108|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:00:52.8108|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:00:52 +02:00
+2023-04-20 13:01:02.8210|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:01:02.8210|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:01:02 +02:00
+2023-04-20 13:01:12.8321|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:01:12.8321|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:01:12 +02:00
+2023-04-20 13:01:22.8380|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:01:22.8380|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:01:22 +02:00
+2023-04-20 13:01:32.8534|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:01:32.8534|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:01:32 +02:00
+2023-04-20 13:01:42.8630|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:01:42.8630|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:01:42 +02:00
+2023-04-20 13:01:52.8752|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:01:52.8752|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:01:52 +02:00
+2023-04-20 13:02:02.8815|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:02:02.8815|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:02:02 +02:00
+2023-04-20 13:02:12.8995|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:02:12.8995|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:02:12 +02:00
+2023-04-20 13:02:22.9164|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:02:22.9164|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:02:22 +02:00
+2023-04-20 13:02:32.9369|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:02:32.9369|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:02:32 +02:00
+2023-04-20 13:02:42.9393|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:02:42.9393|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:02:42 +02:00
+2023-04-20 13:02:52.9464|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:02:52.9464|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:02:52 +02:00
+2023-04-20 13:03:02.9553|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:03:02.9553|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:03:02 +02:00
+2023-04-20 13:03:12.9664|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:03:12.9664|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:03:12 +02:00
+2023-04-20 13:03:22.9726|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:03:22.9726|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:03:22 +02:00
+2023-04-20 13:03:32.9810|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:03:32.9810|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:03:32 +02:00
+2023-04-20 13:03:42.9820|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:03:42.9820|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:03:42 +02:00
+2023-04-20 13:03:52.9954|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:03:52.9954|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:03:52 +02:00
+2023-04-20 13:04:03.0048|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:04:03.0048|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:04:03 +02:00
+2023-04-20 13:04:13.0143|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:04:13.0143|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:04:13 +02:00
+2023-04-20 13:04:23.0250|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:04:23.0250|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:04:23 +02:00
+2023-04-20 13:04:33.0300|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:04:33.0300|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:04:33 +02:00
+2023-04-20 13:04:43.0398|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:04:43.0398|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:04:43 +02:00
+2023-04-20 13:04:53.0527|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:04:53.0527|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:04:53 +02:00
+2023-04-20 13:05:03.0611|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:05:03.0611|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:05:03 +02:00
+2023-04-20 13:05:13.0808|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:05:13.0808|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:05:13 +02:00
+2023-04-20 13:05:23.1068|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:05:23.1068|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:05:23 +02:00
+2023-04-20 13:05:33.1120|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:05:33.1120|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:05:33 +02:00
+2023-04-20 13:05:43.1129|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:05:43.1129|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:05:43 +02:00
+2023-04-20 13:05:53.1140|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:05:53.1140|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:05:53 +02:00
+2023-04-20 13:06:03.1214|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:06:03.1214|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:06:03 +02:00
+2023-04-20 13:06:13.1327|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:06:13.1327|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:06:13 +02:00
+2023-04-20 13:06:23.1447|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:06:23.1447|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:06:23 +02:00
+2023-04-20 13:06:33.1495|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:06:33.1495|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:06:33 +02:00
+2023-04-20 13:06:43.1718|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:06:43.1718|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:06:43 +02:00
+2023-04-20 13:06:53.1760|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:06:53.1760|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:06:53 +02:00
+2023-04-20 13:07:03.1830|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:07:03.1830|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:07:03 +02:00
+2023-04-20 13:07:13.1842|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:07:13.1842|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:07:13 +02:00
+2023-04-20 13:07:23.2004|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:07:23.2004|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:07:23 +02:00
+2023-04-20 13:07:33.2136|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:07:33.2136|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:07:33 +02:00
+2023-04-20 13:07:43.2234|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:07:43.2234|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:07:43 +02:00
+2023-04-20 13:07:53.2339|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:07:53.2339|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:07:53 +02:00
+2023-04-20 13:08:03.2371|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:08:03.2371|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:08:03 +02:00
+2023-04-20 13:08:13.2451|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:08:13.2451|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:08:13 +02:00
+2023-04-20 13:08:23.2604|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:08:23.2604|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:08:23 +02:00
+2023-04-20 13:08:33.2636|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:08:33.2636|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:08:33 +02:00
+2023-04-20 13:08:43.2700|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:08:43.2700|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:08:43 +02:00
+2023-04-20 13:08:53.2794|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:08:53.2794|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:08:53 +02:00
+2023-04-20 13:09:03.2864|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:09:03.2864|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:09:03 +02:00
+2023-04-20 13:09:13.2960|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:09:13.2960|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:09:13 +02:00
+2023-04-20 13:09:23.3108|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:09:23.3108|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:09:23 +02:00
+2023-04-20 13:09:33.3135|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:09:33.3135|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:09:33 +02:00
+2023-04-20 13:09:43.3204|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:09:43.3204|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:09:43 +02:00
+2023-04-20 13:09:53.3243|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:09:53.3243|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:09:53 +02:00
+2023-04-20 13:10:03.3285|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:10:03.4565|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:10:03 +02:00
+2023-04-20 13:10:13.4622|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:10:13.4622|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:10:13 +02:00
+2023-04-20 13:10:23.4704|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:10:23.4704|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:10:23 +02:00
+2023-04-20 13:10:33.4785|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:10:33.4785|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:10:33 +02:00
+2023-04-20 13:10:43.4942|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:10:43.4942|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:10:43 +02:00
+2023-04-20 13:10:53.5170|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:10:53.5170|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:10:53 +02:00
+2023-04-20 13:11:03.5201|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:11:03.5201|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:11:03 +02:00
+2023-04-20 13:11:13.5275|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:11:13.5275|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:11:13 +02:00
+2023-04-20 13:11:23.5379|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:11:23.5379|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:11:23 +02:00
+2023-04-20 13:11:33.5445|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:11:33.5445|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:11:33 +02:00
+2023-04-20 13:11:43.5505|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:11:43.5505|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:11:43 +02:00
+2023-04-20 13:11:53.5557|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:11:53.5557|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:11:53 +02:00
+2023-04-20 13:12:03.5707|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:12:03.5707|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:12:03 +02:00
+2023-04-20 13:12:13.5718|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:12:13.5718|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:12:13 +02:00
+2023-04-20 13:12:23.5826|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:12:23.5826|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:12:23 +02:00
+2023-04-20 13:12:33.5926|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:12:33.5926|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:12:33 +02:00
+2023-04-20 13:12:43.6010|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:12:43.6010|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:12:43 +02:00
+2023-04-20 13:12:53.6136|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:12:53.6136|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:12:53 +02:00
+2023-04-20 13:13:03.6190|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:13:03.6190|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:13:03 +02:00
+2023-04-20 13:13:13.6273|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:13:13.6273|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:13:13 +02:00
+2023-04-20 13:13:23.6378|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:13:23.6378|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:13:23 +02:00
+2023-04-20 13:13:33.6500|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:13:33.6500|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:13:33 +02:00
+2023-04-20 13:13:43.6643|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:13:43.6643|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:13:43 +02:00
+2023-04-20 13:13:53.6735|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:13:53.6735|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:13:53 +02:00
+2023-04-20 13:14:03.6783|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:14:03.6783|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:14:03 +02:00
+2023-04-20 13:14:13.6935|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:14:13.6935|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:14:13 +02:00
+2023-04-20 13:14:23.6961|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:14:23.6961|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:14:23 +02:00
+2023-04-20 13:14:33.6970|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:14:33.6970|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:14:33 +02:00
+2023-04-20 13:14:43.7196|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:14:43.7196|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:14:43 +02:00
+2023-04-20 13:14:53.7263|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:14:53.7263|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:14:53 +02:00
+2023-04-20 13:15:03.7332|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:15:03.7332|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:15:03 +02:00
+2023-04-20 13:15:13.7541|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:15:13.7541|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:15:13 +02:00
+2023-04-20 13:15:23.7589|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:15:23.7589|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:15:23 +02:00
+2023-04-20 13:15:33.7612|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:15:33.7612|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:15:33 +02:00
+2023-04-20 13:15:43.7706|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:15:43.7706|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:15:43 +02:00
+2023-04-20 13:15:53.7842|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:15:53.7842|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:15:53 +02:00
+2023-04-20 13:16:03.8117|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:16:03.8117|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:16:03 +02:00
+2023-04-20 13:16:13.8257|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:16:13.8257|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:16:13 +02:00
+2023-04-20 13:16:23.8356|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:16:23.8356|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:16:23 +02:00
+2023-04-20 13:16:33.8414|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:16:33.8414|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:16:33 +02:00
+2023-04-20 13:16:43.8514|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:16:43.8514|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:16:43 +02:00
+2023-04-20 13:16:53.8717|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:16:53.8717|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:16:53 +02:00
+2023-04-20 13:17:03.8780|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:17:03.8780|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:17:03 +02:00
+2023-04-20 13:17:13.8790|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:17:13.8790|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:17:13 +02:00
+2023-04-20 13:17:23.8891|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:17:23.8891|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:17:23 +02:00
+2023-04-20 13:17:33.9045|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:17:33.9045|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:17:33 +02:00
+2023-04-20 13:17:43.9068|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:17:43.9068|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:17:43 +02:00
+2023-04-20 13:17:53.9367|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:17:53.9367|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:17:53 +02:00
+2023-04-20 13:18:03.9508|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:18:03.9508|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:18:03 +02:00
+2023-04-20 13:18:13.9675|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:18:13.9675|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:18:13 +02:00
+2023-04-20 13:18:23.9901|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:18:23.9901|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:18:23 +02:00
+2023-04-20 13:18:33.9998|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:18:33.9998|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:18:34 +02:00
+2023-04-20 13:18:44.0119|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:18:44.0119|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:18:44 +02:00
+2023-04-20 13:18:54.0170|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:18:54.0170|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:18:54 +02:00
+2023-04-20 13:19:04.0227|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:19:04.0227|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:19:04 +02:00
+2023-04-20 13:19:14.0431|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:19:14.0431|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:19:14 +02:00
+2023-04-20 13:19:24.0478|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:19:24.0478|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:19:24 +02:00
+2023-04-20 13:19:34.0553|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:19:34.0553|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:19:34 +02:00
+2023-04-20 13:19:44.0767|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:19:44.0767|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:19:44 +02:00
+2023-04-20 13:19:54.0980|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:19:54.0980|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:19:54 +02:00
+2023-04-20 13:20:04.1003|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:20:04.1003|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:20:04 +02:00
+2023-04-20 13:20:14.1139|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:20:14.1139|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:20:14 +02:00
+2023-04-20 13:20:24.1286|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:20:24.1286|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:20:24 +02:00
+2023-04-20 13:20:34.1381|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:20:34.1381|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:20:34 +02:00
+2023-04-20 13:20:44.1491|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:20:44.1491|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:20:44 +02:00
+2023-04-20 13:20:54.1716|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:20:54.1716|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:20:54 +02:00
+2023-04-20 13:21:04.1946|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:21:04.1946|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:21:04 +02:00
+2023-04-20 13:21:14.2219|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:21:14.2219|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:21:14 +02:00
+2023-04-20 13:21:24.2253|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:21:24.2253|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:21:24 +02:00
+2023-04-20 13:21:34.2329|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:21:34.2329|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:21:34 +02:00
+2023-04-20 13:21:44.2517|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:21:44.2517|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:21:44 +02:00
+2023-04-20 13:21:54.2546|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:21:54.2546|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:21:54 +02:00
+2023-04-20 13:22:04.2678|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:22:04.2678|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:22:04 +02:00
+2023-04-20 13:22:14.2727|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:22:14.2727|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:22:14 +02:00
+2023-04-20 13:22:24.2805|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:22:24.2805|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:22:24 +02:00
+2023-04-20 13:22:34.2862|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:22:34.2862|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:22:34 +02:00
+2023-04-20 13:22:44.2956|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:22:44.2956|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:22:44 +02:00
+2023-04-20 13:22:54.2996|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:22:54.2996|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:22:54 +02:00
+2023-04-20 13:23:04.3065|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:23:04.3065|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:23:04 +02:00
+2023-04-20 13:23:14.3130|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:23:14.3130|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:23:14 +02:00
+2023-04-20 13:23:24.3230|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:23:24.3230|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:23:24 +02:00
+2023-04-20 13:23:34.3436|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:23:34.3436|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:23:34 +02:00
+2023-04-20 13:23:44.3637|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:23:44.3637|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:23:44 +02:00
+2023-04-20 13:23:54.3853|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:23:54.3853|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:23:54 +02:00
+2023-04-20 13:24:04.3880|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:24:04.3880|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:24:04 +02:00
+2023-04-20 13:24:14.3997|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:24:14.3997|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:24:14 +02:00
+2023-04-20 13:24:24.4076|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:24:24.4076|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:24:24 +02:00
+2023-04-20 13:24:34.4113|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:24:34.4113|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:24:34 +02:00
+2023-04-20 13:24:44.4143|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:24:44.4143|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:24:44 +02:00
+2023-04-20 13:24:54.4223|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:24:54.4223|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:24:54 +02:00
+2023-04-20 13:25:04.4259|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:25:04.4259|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:25:04 +02:00
+2023-04-20 13:25:14.4308|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:25:14.4308|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:25:14 +02:00
+2023-04-20 13:25:24.4471|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:25:24.4471|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:25:24 +02:00
+2023-04-20 13:25:34.4624|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:25:34.4624|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:25:34 +02:00
+2023-04-20 13:25:44.4822|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:25:44.4822|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:25:44 +02:00
+2023-04-20 13:25:54.4902|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:25:54.4902|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:25:54 +02:00
+2023-04-20 13:26:04.4993|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:26:04.4993|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:26:04 +02:00
+2023-04-20 13:26:14.5077|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:26:14.5077|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:26:14 +02:00
+2023-04-20 13:26:24.5138|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:26:24.5138|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:26:24 +02:00
+2023-04-20 13:26:34.5239|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:26:34.5239|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:26:34 +02:00
+2023-04-20 13:26:44.5385|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:26:44.5385|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:26:44 +02:00
+2023-04-20 13:26:54.5516|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:26:54.5516|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:26:54 +02:00
+2023-04-20 13:27:04.5577|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:27:04.5577|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:27:04 +02:00
+2023-04-20 13:27:14.5582|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:27:14.5582|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:27:14 +02:00
+2023-04-20 13:27:24.5624|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:27:24.5624|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:27:24 +02:00
+2023-04-20 13:27:34.5820|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:27:34.5820|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:27:34 +02:00
+2023-04-20 13:27:44.6014|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:27:44.6014|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:27:44 +02:00
+2023-04-20 13:27:54.6203|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:27:54.6203|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:27:54 +02:00
+2023-04-20 13:28:04.6391|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:28:04.6391|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:28:04 +02:00
+2023-04-20 13:28:14.6518|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 13:28:14.6518|INFO|PlanningService.Worker|Worker running at: 04/20/2023 13:28:14 +02:00
+2023-04-20 14:30:06.9171|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:30:06.9171|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:30:06 +02:00
+2023-04-20 14:30:16.9320|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:30:16.9320|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:30:16 +02:00
+2023-04-20 14:30:26.9348|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:30:26.9348|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:30:26 +02:00
+2023-04-20 14:30:36.9482|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:30:36.9482|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:30:36 +02:00
+2023-04-20 14:30:46.9607|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:30:46.9607|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:30:46 +02:00
+2023-04-20 14:30:56.9720|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:30:56.9720|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:30:56 +02:00
+2023-04-20 14:31:06.9817|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:31:06.9817|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:31:06 +02:00
+2023-04-20 14:31:16.9844|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:31:16.9844|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:31:16 +02:00
+2023-04-20 14:31:26.9998|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:31:26.9998|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:31:27 +02:00
+2023-04-20 14:31:37.0151|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:31:37.0151|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:31:37 +02:00
+2023-04-20 14:31:47.0276|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:31:47.0276|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:31:47 +02:00
+2023-04-20 14:31:57.0484|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:31:57.0484|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:31:57 +02:00
+2023-04-20 14:32:07.0504|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:32:07.0504|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:32:07 +02:00
+2023-04-20 14:32:17.0646|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:32:17.0646|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:32:17 +02:00
+2023-04-20 14:32:27.0818|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:32:27.0818|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:32:27 +02:00
+2023-04-20 14:32:37.1018|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:32:37.1018|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:32:37 +02:00
+2023-04-20 14:32:47.1041|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:32:47.1041|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:32:47 +02:00
+2023-04-20 14:32:57.1083|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:32:57.1083|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:32:57 +02:00
+2023-04-20 14:33:07.1149|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:33:07.1149|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:33:07 +02:00
+2023-04-20 14:33:17.1163|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:33:17.1163|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:33:17 +02:00
+2023-04-20 14:33:27.1252|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:33:27.1252|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:33:27 +02:00
+2023-04-20 14:33:37.1293|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:33:37.1293|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:33:37 +02:00
+2023-04-20 14:33:47.1483|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:33:47.1483|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:33:47 +02:00
+2023-04-20 14:33:57.1596|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:33:57.1596|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:33:57 +02:00
+2023-04-20 14:34:07.1638|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:34:07.1638|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:34:07 +02:00
+2023-04-20 14:34:17.1743|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:34:17.1743|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:34:17 +02:00
+2023-04-20 14:34:27.1936|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:34:27.1936|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:34:27 +02:00
+2023-04-20 14:34:37.1970|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:34:37.1970|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:34:37 +02:00
+2023-04-20 14:34:47.2178|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:34:47.2178|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:34:47 +02:00
+2023-04-20 14:34:57.2290|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:34:57.2290|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:34:57 +02:00
+2023-04-20 14:35:07.2479|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:35:07.2479|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:35:07 +02:00
+2023-04-20 14:35:17.2528|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:35:17.2528|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:35:17 +02:00
+2023-04-20 14:35:27.2620|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:35:27.2620|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:35:27 +02:00
+2023-04-20 14:35:37.2803|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:35:37.2803|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:35:37 +02:00
+2023-04-20 14:35:47.2934|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:35:47.2934|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:35:47 +02:00
+2023-04-20 14:35:57.3117|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:35:57.3117|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:35:57 +02:00
+2023-04-20 14:36:07.3206|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:36:07.3206|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:36:07 +02:00
+2023-04-20 14:36:17.3393|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:36:17.3393|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:36:17 +02:00
+2023-04-20 14:36:27.3569|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:36:27.3569|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:36:27 +02:00
+2023-04-20 14:36:37.3601|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:36:37.3601|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:36:37 +02:00
+2023-04-20 14:36:47.3676|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:36:47.3676|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:36:47 +02:00
+2023-04-20 14:36:57.3881|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:36:57.3881|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:36:57 +02:00
+2023-04-20 14:37:07.3993|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:37:07.3993|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:37:07 +02:00
+2023-04-20 14:37:17.4180|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:37:17.4190|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:37:17 +02:00
+2023-04-20 14:37:27.4373|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:37:27.4373|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:37:27 +02:00
+2023-04-20 14:37:37.4511|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:37:37.4511|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:37:37 +02:00
+2023-04-20 14:37:47.4543|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:37:47.4543|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:37:47 +02:00
+2023-04-20 14:37:57.4581|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:37:57.4581|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:37:57 +02:00
+2023-04-20 14:38:07.4741|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:38:07.4741|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:38:07 +02:00
+2023-04-20 14:38:17.4797|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:38:17.4808|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:38:17 +02:00
+2023-04-20 14:38:27.4971|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:38:27.4971|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:38:27 +02:00
+2023-04-20 14:38:37.5044|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:38:37.5044|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:38:37 +02:00
+2023-04-20 14:38:47.5138|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:38:47.5138|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:38:47 +02:00
+2023-04-20 14:38:57.5363|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:38:57.5363|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:38:57 +02:00
+2023-04-20 14:39:07.5413|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:39:07.5413|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:39:07 +02:00
+2023-04-20 14:39:17.5611|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:39:17.5611|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:39:17 +02:00
+2023-04-20 14:39:27.5656|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:39:27.5656|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:39:27 +02:00
+2023-04-20 14:39:37.5812|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:39:37.5812|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:39:37 +02:00
+2023-04-20 14:39:47.5819|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:39:47.5819|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:39:47 +02:00
+2023-04-20 14:39:57.5884|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:39:57.5884|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:39:57 +02:00
+2023-04-20 14:40:07.5904|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:40:07.5904|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:40:07 +02:00
+2023-04-20 14:40:17.5929|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:40:17.5929|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:40:17 +02:00
+2023-04-20 14:40:27.6139|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:40:27.6139|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:40:27 +02:00
+2023-04-20 14:40:37.6230|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:40:37.6230|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:40:37 +02:00
+2023-04-20 14:40:47.6252|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:40:47.6252|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:40:47 +02:00
+2023-04-20 14:40:57.6320|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:40:57.6320|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:40:57 +02:00
+2023-04-20 14:41:07.6521|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:41:07.6528|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:41:07 +02:00
+2023-04-20 14:41:17.6539|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:41:17.6539|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:41:17 +02:00
+2023-04-20 14:41:27.6636|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:41:27.6636|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:41:27 +02:00
+2023-04-20 14:41:37.6712|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:41:37.6712|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:41:37 +02:00
+2023-04-20 14:41:47.6819|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:41:47.6819|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:41:47 +02:00
+2023-04-20 14:41:57.6919|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:41:57.6919|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:41:57 +02:00
+2023-04-20 14:42:07.7205|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:42:07.7205|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:42:07 +02:00
+2023-04-20 14:42:17.7409|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:42:17.7409|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:42:17 +02:00
+2023-04-20 14:42:27.7496|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:42:27.7496|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:42:27 +02:00
+2023-04-20 14:42:37.7621|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:42:37.7621|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:42:37 +02:00
+2023-04-20 14:42:47.7783|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:42:47.7783|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:42:47 +02:00
+2023-04-20 14:42:57.7937|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:42:57.7937|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:42:57 +02:00
+2023-04-20 14:43:07.8111|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:43:07.8111|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:43:07 +02:00
+2023-04-20 14:43:17.8221|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:43:17.8221|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:43:17 +02:00
+2023-04-20 14:43:27.8349|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:43:27.8349|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:43:27 +02:00
+2023-04-20 14:43:37.8444|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:43:37.8444|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:43:37 +02:00
+2023-04-20 14:43:47.8606|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:43:47.8606|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:43:47 +02:00
+2023-04-20 14:43:57.8636|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:43:57.8636|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:43:57 +02:00
+2023-04-20 14:44:07.8858|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:44:07.8858|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:44:07 +02:00
+2023-04-20 14:44:17.8862|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:44:17.8862|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:44:17 +02:00
+2023-04-20 14:44:27.8917|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:44:27.8917|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:44:27 +02:00
+2023-04-20 14:44:37.9026|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:44:37.9026|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:44:37 +02:00
+2023-04-20 14:44:47.9082|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:44:47.9082|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:44:47 +02:00
+2023-04-20 14:44:57.9232|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:44:57.9232|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:44:57 +02:00
+2023-04-20 14:45:07.9229|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:45:07.9229|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:45:07 +02:00
+2023-04-20 14:45:17.9418|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:45:17.9418|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:45:17 +02:00
+2023-04-20 14:45:27.9607|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:45:27.9607|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:45:27 +02:00
+2023-04-20 14:45:37.9767|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:45:37.9767|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:45:37 +02:00
+2023-04-20 14:45:47.9846|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:45:47.9846|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:45:47 +02:00
+2023-04-20 14:45:57.9921|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:45:57.9921|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:45:57 +02:00
+2023-04-20 14:46:08.0031|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:46:08.0031|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:46:08 +02:00
+2023-04-20 14:46:18.0042|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:46:18.0042|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:46:18 +02:00
+2023-04-20 14:46:28.0157|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:46:28.0157|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:46:28 +02:00
+2023-04-20 14:46:38.0240|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:46:38.0240|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:46:38 +02:00
+2023-04-20 14:46:48.0320|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:46:48.0320|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:46:48 +02:00
+2023-04-20 14:46:58.0354|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:46:58.0354|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:46:58 +02:00
+2023-04-20 14:47:08.0440|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:47:08.0440|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:47:08 +02:00
+2023-04-20 14:47:18.0520|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:47:18.0520|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:47:18 +02:00
+2023-04-20 14:47:28.0713|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:47:28.0713|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:47:28 +02:00
+2023-04-20 14:47:38.0852|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:47:38.0852|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:47:38 +02:00
+2023-04-20 14:47:48.0857|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:47:48.0857|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:47:48 +02:00
+2023-04-20 14:47:58.0956|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:47:58.0956|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:47:58 +02:00
+2023-04-20 14:48:08.1000|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:48:08.1000|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:48:08 +02:00
+2023-04-20 14:48:18.1133|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:48:18.1133|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:48:18 +02:00
+2023-04-20 14:48:28.1148|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:48:28.1148|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:48:28 +02:00
+2023-04-20 14:48:38.1294|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:48:38.1294|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:48:38 +02:00
+2023-04-20 14:48:48.1319|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:48:48.1319|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:48:48 +02:00
+2023-04-20 14:48:58.1448|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:48:58.1448|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:48:58 +02:00
+2023-04-20 14:49:08.1543|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:49:08.1543|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:49:08 +02:00
+2023-04-20 14:49:18.1692|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:49:18.1692|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:49:18 +02:00
+2023-04-20 14:49:28.1745|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:49:28.1745|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:49:28 +02:00
+2023-04-20 14:49:38.1875|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:49:38.1875|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:49:38 +02:00
+2023-04-20 14:49:48.2015|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:49:48.2015|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:49:48 +02:00
+2023-04-20 14:49:58.2118|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:49:58.2118|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:49:58 +02:00
+2023-04-20 14:50:08.2386|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:50:08.2386|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:50:08 +02:00
+2023-04-20 14:50:18.2518|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:50:18.2518|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:50:18 +02:00
+2023-04-20 14:50:28.2665|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:50:28.2665|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:50:28 +02:00
+2023-04-20 14:50:38.2738|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:50:38.2738|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:50:38 +02:00
+2023-04-20 14:50:48.2760|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:50:48.2760|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:50:48 +02:00
+2023-04-20 14:50:58.2893|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:50:58.2893|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:50:58 +02:00
+2023-04-20 14:51:08.2990|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:51:08.2990|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:51:08 +02:00
+2023-04-20 14:51:18.3060|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:51:18.3060|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:51:18 +02:00
+2023-04-20 14:51:28.3213|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:51:28.3213|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:51:28 +02:00
+2023-04-20 14:51:38.3353|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:51:38.3353|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:51:38 +02:00
+2023-04-20 14:51:48.3507|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:51:48.3507|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:51:48 +02:00
+2023-04-20 14:51:58.3552|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:51:58.3552|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:51:58 +02:00
+2023-04-20 14:52:08.3673|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:52:08.3673|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:52:08 +02:00
+2023-04-20 14:52:18.3799|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:52:18.3799|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:52:18 +02:00
+2023-04-20 14:52:28.3857|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:52:28.3857|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:52:28 +02:00
+2023-04-20 14:52:38.3977|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:52:38.3977|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:52:38 +02:00
+2023-04-20 14:52:48.4110|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:52:48.4110|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:52:48 +02:00
+2023-04-20 14:52:58.4266|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:52:58.4266|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:52:58 +02:00
+2023-04-20 14:53:08.4390|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:53:08.4390|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:53:08 +02:00
+2023-04-20 14:53:18.4547|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:53:18.4547|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:53:18 +02:00
+2023-04-20 14:53:28.4660|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:53:28.4660|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:53:28 +02:00
+2023-04-20 14:53:38.4676|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:53:38.4676|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:53:38 +02:00
+2023-04-20 14:53:48.4773|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:53:48.4773|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:53:48 +02:00
+2023-04-20 14:53:58.4875|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:53:58.4875|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:53:58 +02:00
+2023-04-20 14:54:08.5014|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:54:08.5014|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:54:08 +02:00
+2023-04-20 14:54:18.5134|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:54:18.5134|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:54:18 +02:00
+2023-04-20 14:54:28.5265|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:54:28.5265|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:54:28 +02:00
+2023-04-20 14:54:38.5372|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:54:38.5372|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:54:38 +02:00
+2023-04-20 14:54:48.5438|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:54:48.5438|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:54:48 +02:00
+2023-04-20 14:54:58.5534|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:54:58.5534|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:54:58 +02:00
+2023-04-20 14:55:08.5627|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:55:08.5627|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:55:08 +02:00
+2023-04-20 14:55:18.5730|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:55:18.5730|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:55:18 +02:00
+2023-04-20 14:55:28.5766|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:55:28.5766|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:55:28 +02:00
+2023-04-20 14:55:38.5830|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:55:38.5830|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:55:38 +02:00
+2023-04-20 14:55:48.5898|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:55:48.5898|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:55:48 +02:00
+2023-04-20 14:55:58.5957|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:55:58.5957|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:55:58 +02:00
+2023-04-20 14:56:08.6000|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:56:08.6000|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:56:08 +02:00
+2023-04-20 14:56:18.6051|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:56:18.6051|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:56:18 +02:00
+2023-04-20 14:56:28.6248|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:56:28.6248|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:56:28 +02:00
+2023-04-20 14:56:38.6333|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:56:38.6333|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:56:38 +02:00
+2023-04-20 14:56:48.6433|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:56:48.6433|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:56:48 +02:00
+2023-04-20 14:56:58.6580|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:56:58.6580|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:56:58 +02:00
+2023-04-20 14:57:08.6665|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:57:08.6665|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:57:08 +02:00
+2023-04-20 14:57:18.6781|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:57:18.6781|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:57:18 +02:00
+2023-04-20 14:57:28.6806|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:57:28.6806|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:57:28 +02:00
+2023-04-20 14:57:38.6892|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:57:38.6892|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:57:38 +02:00
+2023-04-20 14:57:48.6943|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:57:48.6943|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:57:48 +02:00
+2023-04-20 14:57:58.7066|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:57:58.7066|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:57:58 +02:00
+2023-04-20 14:58:08.7109|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:58:08.7109|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:58:08 +02:00
+2023-04-20 14:58:18.7169|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:58:18.7169|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:58:18 +02:00
+2023-04-20 14:58:28.7312|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:58:28.7312|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:58:28 +02:00
+2023-04-20 14:58:38.7429|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:58:38.7429|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:58:38 +02:00
+2023-04-20 14:58:48.7567|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:58:48.7567|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:58:48 +02:00
+2023-04-20 14:58:58.7664|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:58:58.7664|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:58:58 +02:00
+2023-04-20 14:59:08.7737|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:59:08.7737|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:59:08 +02:00
+2023-04-20 14:59:18.7829|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:59:18.7829|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:59:18 +02:00
+2023-04-20 14:59:28.7856|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:59:28.7856|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:59:28 +02:00
+2023-04-20 14:59:38.8131|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:59:38.8131|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:59:38 +02:00
+2023-04-20 14:59:48.8145|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:59:48.8145|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:59:48 +02:00
+2023-04-20 14:59:58.8152|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 14:59:58.8152|INFO|PlanningService.Worker|Worker running at: 04/20/2023 14:59:58 +02:00
+2023-04-20 15:00:08.8271|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:00:08.8271|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:00:08 +02:00
+2023-04-20 15:00:18.8465|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:00:18.8465|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:00:18 +02:00
+2023-04-20 15:00:28.8530|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:00:28.8530|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:00:28 +02:00
+2023-04-20 15:00:38.8745|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:00:38.8745|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:00:38 +02:00
+2023-04-20 15:00:48.8952|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:00:48.8952|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:00:48 +02:00
+2023-04-20 15:00:58.8988|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:00:58.8988|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:00:58 +02:00
+2023-04-20 15:01:08.9156|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:01:08.9156|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:01:08 +02:00
+2023-04-20 15:01:18.9254|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:01:18.9254|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:01:18 +02:00
+2023-04-20 15:01:28.9277|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:01:28.9277|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:01:28 +02:00
+2023-04-20 15:01:38.9326|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:01:38.9326|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:01:38 +02:00
+2023-04-20 15:01:48.9491|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:01:48.9491|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:01:48 +02:00
+2023-04-20 15:01:58.9610|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:01:58.9610|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:01:58 +02:00
+2023-04-20 15:02:08.9883|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:02:08.9883|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:02:08 +02:00
+2023-04-20 15:02:18.9901|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:02:18.9901|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:02:18 +02:00
+2023-04-20 15:02:29.0026|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:02:29.0026|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:02:29 +02:00
+2023-04-20 15:02:39.0072|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:02:39.0072|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:02:39 +02:00
+2023-04-20 15:02:49.0233|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:02:49.0233|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:02:49 +02:00
+2023-04-20 15:02:59.0484|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:02:59.0484|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:02:59 +02:00
+2023-04-20 15:03:09.0542|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:03:09.0542|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:03:09 +02:00
+2023-04-20 15:03:19.0680|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:03:19.0680|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:03:19 +02:00
+2023-04-20 15:03:29.0733|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:03:29.0749|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:03:29 +02:00
+2023-04-20 15:03:39.0992|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:03:39.0992|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:03:39 +02:00
+2023-04-20 15:03:49.1006|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:03:49.1006|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:03:49 +02:00
+2023-04-20 15:03:59.1179|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:03:59.1179|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:03:59 +02:00
+2023-04-20 15:04:09.1400|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:04:09.1400|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:04:09 +02:00
+2023-04-20 15:04:19.1469|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:04:19.1469|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:04:19 +02:00
+2023-04-20 15:04:29.1551|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:04:29.1551|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:04:29 +02:00
+2023-04-20 15:04:39.1632|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:04:39.1632|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:04:39 +02:00
+2023-04-20 15:04:49.1756|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:04:49.1756|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:04:49 +02:00
+2023-04-20 15:04:59.1907|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:04:59.1907|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:04:59 +02:00
+2023-04-20 15:05:09.2041|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:05:09.2041|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:05:09 +02:00
+2023-04-20 15:05:19.2154|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:05:19.2154|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:05:19 +02:00
+2023-04-20 15:05:29.2268|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:05:29.2268|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:05:29 +02:00
+2023-04-20 15:05:39.2273|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:05:39.2273|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:05:39 +02:00
+2023-04-20 15:05:49.2411|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:05:49.2411|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:05:49 +02:00
+2023-04-20 15:05:59.2573|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:05:59.2573|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:05:59 +02:00
+2023-04-20 15:06:09.2714|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:06:09.2714|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:06:09 +02:00
+2023-04-20 15:06:19.2809|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:06:19.2809|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:06:19 +02:00
+2023-04-20 15:06:29.2933|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:06:29.2933|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:06:29 +02:00
+2023-04-20 15:06:39.3066|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:06:39.3066|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:06:39 +02:00
+2023-04-20 15:06:49.3071|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:06:49.3071|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:06:49 +02:00
+2023-04-20 15:06:59.3094|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:06:59.3094|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:06:59 +02:00
+2023-04-20 15:07:09.3343|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:07:09.3343|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:07:09 +02:00
+2023-04-20 15:07:19.3473|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:07:19.3473|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:07:19 +02:00
+2023-04-20 15:07:29.3585|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:07:29.3585|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:07:29 +02:00
+2023-04-20 15:07:39.3589|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:07:39.3589|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:07:39 +02:00
+2023-04-20 15:07:49.3616|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:07:49.3616|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:07:49 +02:00
+2023-04-20 15:07:59.3622|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:07:59.3622|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:07:59 +02:00
+2023-04-20 15:08:09.3647|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:08:09.3647|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:08:09 +02:00
+2023-04-20 15:08:19.3737|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:08:19.3737|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:08:19 +02:00
+2023-04-20 15:08:29.3808|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:08:29.3808|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:08:29 +02:00
+2023-04-20 15:08:39.3951|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:08:39.3951|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:08:39 +02:00
+2023-04-20 15:08:49.3997|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:08:49.3997|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:08:49 +02:00
+2023-04-20 15:08:59.4227|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:08:59.4227|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:08:59 +02:00
+2023-04-20 15:09:09.4358|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:09:09.4358|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:09:09 +02:00
+2023-04-20 15:09:19.4518|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:09:19.4518|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:09:19 +02:00
+2023-04-20 15:09:29.4592|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:09:29.4592|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:09:29 +02:00
+2023-04-20 15:09:39.4647|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:09:39.4647|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:09:39 +02:00
+2023-04-20 15:09:49.4744|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:09:49.4744|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:09:49 +02:00
+2023-04-20 15:09:59.4767|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:09:59.4767|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:09:59 +02:00
+2023-04-20 15:10:09.4771|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:10:09.4771|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:10:09 +02:00
+2023-04-20 15:10:19.4904|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:10:19.4904|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:10:19 +02:00
+2023-04-20 15:10:29.5065|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:10:29.5065|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:10:29 +02:00
+2023-04-20 15:10:39.5301|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:10:39.5301|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:10:39 +02:00
+2023-04-20 15:10:49.5350|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:10:49.5350|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:10:49 +02:00
+2023-04-20 15:10:59.5376|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:10:59.5376|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:10:59 +02:00
+2023-04-20 15:11:09.5400|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:11:09.5400|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:11:09 +02:00
+2023-04-20 15:11:19.5415|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:11:19.5415|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:11:19 +02:00
+2023-04-20 15:11:29.5532|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:11:29.5532|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:11:29 +02:00
+2023-04-20 15:11:39.5655|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:11:39.5655|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:11:39 +02:00
+2023-04-20 15:11:49.5783|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:11:49.5783|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:11:49 +02:00
+2023-04-20 15:11:59.5992|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:11:59.5992|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:11:59 +02:00
+2023-04-20 15:12:09.6144|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:12:09.6144|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:12:09 +02:00
+2023-04-20 15:12:19.6254|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:12:19.6254|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:12:19 +02:00
+2023-04-20 15:12:29.6285|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:12:29.6285|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:12:29 +02:00
+2023-04-20 15:12:39.6425|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:12:39.6425|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:12:39 +02:00
+2023-04-20 15:12:49.6444|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:12:49.6444|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:12:49 +02:00
+2023-04-20 15:12:59.6585|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:12:59.6585|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:12:59 +02:00
+2023-04-20 15:13:09.6613|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:13:09.6613|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:13:09 +02:00
+2023-04-20 15:13:19.6709|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:13:19.6709|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:13:19 +02:00
+2023-04-20 15:13:29.6841|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:13:29.6841|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:13:29 +02:00
+2023-04-20 15:13:39.6979|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:13:39.6979|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:13:39 +02:00
+2023-04-20 15:13:49.7126|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:13:49.7126|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:13:49 +02:00
+2023-04-20 15:13:59.7138|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:13:59.7138|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:13:59 +02:00
+2023-04-20 15:14:09.7190|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:14:09.7190|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:14:09 +02:00
+2023-04-20 15:14:19.7332|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:14:19.7332|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:14:19 +02:00
+2023-04-20 15:14:29.7337|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:14:29.7337|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:14:29 +02:00
+2023-04-20 15:14:39.7473|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:14:39.7473|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:14:39 +02:00
+2023-04-20 15:14:49.7610|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:14:49.7610|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:14:49 +02:00
+2023-04-20 15:14:59.7729|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:14:59.7729|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:14:59 +02:00
+2023-04-20 15:15:09.7754|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:15:09.7754|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:15:09 +02:00
+2023-04-20 15:15:19.7890|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:15:19.7890|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:15:19 +02:00
+2023-04-20 15:15:29.7977|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:15:29.7977|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:15:29 +02:00
+2023-04-20 15:15:39.8111|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:15:39.8111|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:15:39 +02:00
+2023-04-20 15:15:49.8214|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:15:49.8214|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:15:49 +02:00
+2023-04-20 15:15:59.8456|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:15:59.8456|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:15:59 +02:00
+2023-04-20 15:16:09.8691|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:16:09.8691|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:16:09 +02:00
+2023-04-20 15:16:19.8764|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:16:19.8764|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:16:19 +02:00
+2023-04-20 15:16:29.8863|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:16:29.8863|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:16:29 +02:00
+2023-04-20 15:16:39.8924|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:16:39.8924|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:16:39 +02:00
+2023-04-20 15:16:49.9014|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:16:49.9014|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:16:49 +02:00
+2023-04-20 15:16:59.9011|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:16:59.9011|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:16:59 +02:00
+2023-04-20 15:17:09.9068|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:17:09.9068|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:17:09 +02:00
+2023-04-20 15:17:19.9101|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:17:19.9101|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:17:19 +02:00
+2023-04-20 15:17:29.9131|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:17:29.9131|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:17:29 +02:00
+2023-04-20 15:17:39.9286|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:17:39.9286|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:17:39 +02:00
+2023-04-20 15:17:49.9308|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:17:49.9308|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:17:49 +02:00
+2023-04-20 15:17:59.9338|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:17:59.9338|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:17:59 +02:00
+2023-04-20 15:18:09.9405|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:18:09.9405|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:18:09 +02:00
+2023-04-20 15:18:19.9491|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:18:19.9491|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:18:19 +02:00
+2023-04-20 15:18:29.9574|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:18:29.9574|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:18:29 +02:00
+2023-04-20 15:18:39.9639|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:18:39.9639|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:18:39 +02:00
+2023-04-20 15:18:49.9721|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:18:49.9721|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:18:49 +02:00
+2023-04-20 15:18:59.9734|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:18:59.9734|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:18:59 +02:00
+2023-04-20 15:19:09.9752|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:19:09.9752|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:19:09 +02:00
+2023-04-20 15:19:19.9865|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:19:19.9865|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:19:19 +02:00
+2023-04-20 15:19:29.9945|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:19:29.9945|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:19:29 +02:00
+2023-04-20 15:19:40.0076|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:19:40.0076|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:19:40 +02:00
+2023-04-20 15:19:50.0074|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:19:50.0074|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:19:50 +02:00
+2023-04-20 15:20:00.0247|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:20:00.0247|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:20:00 +02:00
+2023-04-20 15:20:10.0248|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:20:10.0248|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:20:10 +02:00
+2023-04-20 15:20:20.0271|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:20:20.0271|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:20:20 +02:00
+2023-04-20 15:20:30.0394|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:20:30.0394|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:20:30 +02:00
+2023-04-20 15:20:40.0526|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:20:40.0526|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:20:40 +02:00
+2023-04-20 15:20:50.0672|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:20:50.0672|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:20:50 +02:00
+2023-04-20 15:21:00.0736|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:21:00.0736|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:21:00 +02:00
+2023-04-20 15:21:10.0739|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:21:10.0739|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:21:10 +02:00
+2023-04-20 15:21:20.0851|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:21:20.0851|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:21:20 +02:00
+2023-04-20 15:21:30.0964|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:21:30.0964|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:21:30 +02:00
+2023-04-20 15:21:40.1047|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:21:40.1047|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:21:40 +02:00
+2023-04-20 15:21:50.1188|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:21:50.1188|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:21:50 +02:00
+2023-04-20 15:22:00.1271|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:22:00.1271|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:22:00 +02:00
+2023-04-20 15:22:10.1336|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:22:10.1336|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:22:10 +02:00
+2023-04-20 15:22:20.1342|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:22:20.1342|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:22:20 +02:00
+2023-04-20 15:22:30.1411|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:22:30.1411|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:22:30 +02:00
+2023-04-20 15:22:40.1522|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:22:40.1522|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:22:40 +02:00
+2023-04-20 15:22:50.1601|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:22:50.1601|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:22:50 +02:00
+2023-04-20 15:23:00.1636|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:23:00.1636|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:23:00 +02:00
+2023-04-20 15:23:10.1655|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:23:10.1655|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:23:10 +02:00
+2023-04-20 15:23:20.1704|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:23:20.1704|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:23:20 +02:00
+2023-04-20 15:23:30.1787|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:23:30.1787|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:23:30 +02:00
+2023-04-20 15:23:40.1872|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:23:40.1872|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:23:40 +02:00
+2023-04-20 15:23:50.1904|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:23:50.1904|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:23:50 +02:00
+2023-04-20 15:24:00.1940|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:24:00.1940|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:24:00 +02:00
+2023-04-20 15:24:10.2103|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:24:10.2103|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:24:10 +02:00
+2023-04-20 15:24:20.2171|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:24:20.2171|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:24:20 +02:00
+2023-04-20 15:24:30.2208|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:24:30.2208|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:24:30 +02:00
+2023-04-20 15:24:40.2359|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:24:40.2359|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:24:40 +02:00
+2023-04-20 15:24:50.2603|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:24:50.2603|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:24:50 +02:00
+2023-04-20 15:25:00.2689|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:25:00.2689|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:25:00 +02:00
+2023-04-20 15:25:10.2849|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:25:10.2849|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:25:10 +02:00
+2023-04-20 15:25:20.2915|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:25:20.2915|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:25:20 +02:00
+2023-04-20 15:25:30.2926|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:25:30.2926|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:25:30 +02:00
+2023-04-20 15:25:40.2996|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:25:40.2996|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:25:40 +02:00
+2023-04-20 15:25:50.3026|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:25:50.3026|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:25:50 +02:00
+2023-04-20 15:26:00.3134|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:26:00.3134|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:26:00 +02:00
+2023-04-20 15:26:10.3225|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:26:10.3225|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:26:10 +02:00
+2023-04-20 15:26:20.3349|INFO|PlanningService.Worker|Nyt data: 
+2023-04-20 15:26:20.3349|INFO|PlanningService.Worker|Worker running at: 04/20/2023 15:26:20 +02:00
