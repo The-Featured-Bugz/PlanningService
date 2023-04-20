@@ -80,7 +80,7 @@ public class Worker : BackgroundService
         var routingKey = ea.RoutingKey;
 
         // Logger beskeden og dens routing key
-        _logger.LogInformation($"[x] Modtaget '{routingKey}':'{message}' {Directory.GetCurrentDirectory() + _csvLocation +"\\"+ routingKey + ".csv"}");
+        _logger.LogInformation($"[x] Modtaget '{routingKey}':'{message}' { _csvLocation +"\\"+ routingKey + ".csv"}");
 
         // Parser beskeden til CSV-format og gemmer den i en CSV-fil baseret på routing key'en
         string csvFormat = "";
@@ -105,9 +105,9 @@ public class Worker : BackgroundService
 
         // Logger den parsede besked
         _logger.LogInformation("Sender: " + csvFormat);
-
+        //
         // Gemmer den parsede besked i en CSV-fil baseret på routing key'en
-        File.AppendAllText(Directory.GetCurrentDirectory() + _csvLocation + "\\"+ routingKey + ".csv", csvFormat + Environment.NewLine);
+        File.AppendAllText( _csvLocation + "\\"+ routingKey + ".csv", csvFormat + Environment.NewLine);
     };
 
     // Begynder at forbruge beskeder fra køen
